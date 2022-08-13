@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/Link';
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -19,6 +20,12 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           <a href="https://www.youtube.com/watch?v=KCwgpOpwixA">This is just a test.</a>
+        </p>
+
+        <p className={styles.description}>
+          <Link href="./posts/htmlRenderingEngine">
+            Aug 13 2022: HTML Rendering Engine.
+          </Link>
         </p>
       </main>
 
