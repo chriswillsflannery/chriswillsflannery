@@ -2,9 +2,13 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link';
-import styles from '../styles/Home.module.css'
 
-const Home: NextPage = () => {
+import browserStructure from '../../public/htmlRenderingEngine/1-browserStructure.jpg';
+import cssParsing from '../../public/cssRenderingEngine/8-cssParsing.jpg';
+
+import styles from '../../styles/Home.module.css';
+
+const CSSRenderingEngine: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -14,28 +18,27 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Hello there.
-        </h1>
+        <h1>CSS Rendering Engine</h1>
+        <h3>...continued from{' '}
+          <span>
+            <Link href="./htmlRenderingEngine">
+              HTML Rendering Engine
+            </Link>
+          </span>
+        </h3>
 
-        <p className={styles.description}>
-          <a href="https://www.youtube.com/watch?v=KCwgpOpwixA">This is just a test.</a>
-        </p>
+        <div>
+          <p>CSS parsing is more strict ( but bear in mind CSS is not truly a &quot;language&quot;, it is simply a set of markup rules.)</p>
+          <Image
+            src={cssParsing}
+            alt="CSS Parsing"
+          />
+        </div>
+
+        <p>To be continued.</p>
 
         <p>
-          <Link href="./posts/htmlRenderingEngine">
-            Aug 13 2022: HTML Rendering Engine.
-          </Link>
-        </p>
-
-        <p>
-          <Link href="./posts/cssRenderingEngine">
-            Aug 13 2022: CSS Rendering Engine.
-          </Link>
-        </p>
-
-        <p>
-          <a href="https://www.youtube.com/watch?v=0V2Mi16xd04">[EXT] Aug 14 2022: Find the Mode of a dataset (sub. Español)</a>
+          <Link href="../">Back Home.</Link>
         </p>
       </main>
 
@@ -55,4 +58,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default CSSRenderingEngine

@@ -7,7 +7,9 @@ import browserStructure from '../../public/htmlRenderingEngine/1-browserStructur
 import overview from '../../public/htmlRenderingEngine/1-overview.jpg';
 import parsingFlow from '../../public/htmlRenderingEngine/4-parsingFlow.jpg';
 import errorTolerance from '../../public/htmlRenderingEngine/6-errorTolerance.jpg';
-import parseTree from '../../public/htmlRenderingEngine/2-parser.jpg';
+import parser from '../../public/htmlRenderingEngine/2-parser.jpg';
+import parseTree from '../../public/htmlRenderingEngine/5-parseTree.jpg';
+
 
 import styles from '../../styles/Home.module.css';
 
@@ -58,12 +60,27 @@ const HtmlRenderingEngine: NextPage = () => {
         <div>
           <p>Tokens are converted into nodes which are attached to the parse tree.</p>
           <Image
+            src={parser}
+            alt="Parser"
+          />
+        </div>
+
+        <div>
+          <p>The parse tree is later converted into the DOM tree.</p>
+          <Image
             src={parseTree}
             alt="Parse Tree"
           />
         </div>
 
-        <p>To be continued.</p>
+        <p>
+          Continued in{' '}
+          <span>
+            <Link href="./cssRenderingEngine">
+              CSS Rendering Engine.
+            </Link>
+          </span>
+        </p>
 
         <p>
           <Link href="../">Back Home.</Link>
