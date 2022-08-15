@@ -30,12 +30,18 @@ const Home: NextPage = () => {
 
         <p>
           <Link href="./posts/cssRenderingEngine">
-            Aug 13 2022: CSS Rendering Engine.
+            Aug 13 2022: CSS Rendering Engine. (1/2)
           </Link>
         </p>
 
         <p>
-          <a href="https://www.youtube.com/watch?v=0V2Mi16xd04">[EXT] Aug 14 2022: Find the Mode of a dataset (sub. Español)</a>
+          <Link href="./posts/cssRenderingEngine2">
+            Aug 14 2022: CSS Rendering Engine. (2/2)
+          </Link>
+        </p>
+
+        <p>
+          <a href="https://www.youtube.com/watch?v=0V2Mi16xd04">[EXT] Aug 15 2022: Find the Mode of a dataset (sub. Español)</a>
         </p>
       </main>
 

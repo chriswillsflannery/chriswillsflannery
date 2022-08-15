@@ -30,6 +30,7 @@ const HtmlRenderingEngine: NextPage = () => {
           <Image
             src={browserStructure}
             alt="Browser Structure"
+            priority
           />
         </div>
 
