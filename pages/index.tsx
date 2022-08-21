@@ -43,6 +43,10 @@ const Home: NextPage = () => {
         <p>
           <a href="https://www.youtube.com/watch?v=0V2Mi16xd04">[EXT] Aug 15 2022: Find the Mode of a dataset (sub. Español)</a>
         </p>
+
+        <p>
+          <a href="https://www.youtube.com/watch?v=ByuEfCcj1vg">[EXT] Aug 21 2022: Parse data like a Blade Runner with JavaScript</a>
+        </p>
       </main>
 
       <footer className={styles.footer}>
