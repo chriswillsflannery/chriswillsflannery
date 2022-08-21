@@ -32,6 +32,12 @@ const Archive: NextPage = () => {
         <p>
           <a href="https://medium.com/itnext/deep-in-the-weeds-with-reactime-concurrent-react-fiberroot-and-browser-history-caching-7ce9d7300abb">[EXT] Nov 21 2019: Deep in the Weeds with Reactime, Concurrent React _fiberRoot, and Browser History Caching</a>
         </p>
+
+        <p>
+          <Link href="./posts/binaryChristmasTree">
+            Binary Christmas Tree
+          </Link>
+        </p>
       </main>
 
       <footer className={styles.footer}>
