@@ -22,6 +22,10 @@ const Archive: NextPage = () => {
         </p>
 
         <p>
+          <a href="https://react.statuscode.com/issues/165">[EXT] Nov 19 2019: Reactime feature in React Status</a>
+        </p>
+
+        <p>
           <a href="https://medium.com/itnext/sort-of-beginners-guide-to-webpack-dev-server-98f8843b1bc1">[EXT] Nov 29 2019: Sort-of-beginner&quot;s guide to webpack-dev-server</a>
         </p>
 
