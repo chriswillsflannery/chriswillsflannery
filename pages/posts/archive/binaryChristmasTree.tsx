@@ -31,7 +31,7 @@ const BinaryChristmasTree: NextPage = () => {
 
       <footer className={styles.footer}>
         <p>
-          <Link href="../">
+          <Link href="/">
             Home
           </Link>
         </p>
