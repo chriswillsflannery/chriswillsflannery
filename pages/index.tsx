@@ -23,6 +23,20 @@ const Home: NextPage = () => {
         </p>
 
         <p>
+          <Link href="./posts/turnNextIntoCra">
+            Aug 23 2022: Turning NextJS into CRA
+          </Link>
+        </p>
+
+        <p>
+          <a href="https://www.youtube.com/watch?v=ByuEfCcj1vg">[EXT] Aug 21 2022: Parse data like a Blade Runner with JavaScript</a>
+        </p>
+        
+        <p>
+          <a href="https://www.youtube.com/watch?v=0V2Mi16xd04">[EXT] Aug 15 2022: Find the Mode of a dataset (sub. Español)</a>
+        </p>
+
+        <p>
           <Link href="./posts/htmlRenderingEngine">
             Aug 13 2022: HTML Rendering Engine.
           </Link>
@@ -36,16 +50,8 @@ const Home: NextPage = () => {
 
         <p>
           <Link href="./posts/cssRenderingEngine2">
-            Aug 14 2022: CSS Rendering Engine. (2/2)
+            Aug 13 2022: CSS Rendering Engine. (2/2)
           </Link>
-        </p>
-
-        <p>
-          <a href="https://www.youtube.com/watch?v=0V2Mi16xd04">[EXT] Aug 15 2022: Find the Mode of a dataset (sub. Español)</a>
-        </p>
-
-        <p>
-          <a href="https://www.youtube.com/watch?v=ByuEfCcj1vg">[EXT] Aug 21 2022: Parse data like a Blade Runner with JavaScript</a>
         </p>
       </main>
 

@@ -34,7 +34,7 @@ const Archive: NextPage = () => {
         </p>
 
         <p>
-          <Link href="./posts/binaryChristmasTree">
+          <Link href="./posts/archive/binaryChristmasTree">
             Binary Christmas Tree
           </Link>
         </p>
