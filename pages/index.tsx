@@ -23,6 +23,12 @@ const Home: NextPage = () => {
         </p>
 
         <p>
+          <Link href="./posts/destructuredVariableFromArray">
+            Aug 31 2022: Destructured variable from array (JS)
+          </Link>
+        </p>
+
+        <p>
           <Link href="./posts/turnNextIntoCra">
             Aug 23 2022: Turning NextJS into CRA
           </Link>
