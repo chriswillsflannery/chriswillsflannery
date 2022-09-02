@@ -9,7 +9,7 @@ import styles from '../../styles/Home.module.css';
 
 const link = { color: 'darkSlateBlue' };
 
-const TurnNextIntoCra: NextPage = () => {
+const DestructuredVariable: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -115,4 +115,4 @@ const TurnNextIntoCra: NextPage = () => {
   )
 }
 
-export default TurnNextIntoCra
+export default DestructuredVariable

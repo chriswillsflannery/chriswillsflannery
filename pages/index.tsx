@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link';
 import styles from '../styles/Home.module.css'
 
@@ -20,6 +19,12 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           <a href="https://www.youtube.com/watch?v=KCwgpOpwixA">This is just a test.</a>
+        </p>
+
+        <p>
+          <Link href="./posts/discriminatedUnionsTS">
+            Sept 2 2022: Discriminated Unions in TypeScript
+          </Link>
         </p>
 
         <p>
