@@ -23,4 +23,6 @@ export const CodeBlock: FC<CodeBlockProps> = ({ code }) => (
       </pre>
     )}
   </Highlight>
-)
+);
+
+export default CodeBlock;

@@ -9,8 +9,8 @@ import mcConify from '../../public/introToGenerics/mcConify.png';
 import mcTriple from '../../public/introToGenerics/mcTriple.png';
 
 import styles from '../../styles/Home.module.css';
-import { HL } from '../components/HorizontalLine';
-import { CodeBlock } from '../components/CodeBlock';
+import HL from '../components/HorizontalLine';
+import CodeBlock from '../components/CodeBlock';
 
 const singleGeneric = `
   function identity(a: TODO): TODO {

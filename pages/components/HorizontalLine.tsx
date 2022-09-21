@@ -9,3 +9,5 @@ export const HL = () => (
     }}
   />
 );
+
+export default HL;
