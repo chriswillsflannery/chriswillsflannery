@@ -22,6 +22,12 @@ const Home: NextPage = () => {
         </p>
 
         <p>
+          <Link href="./posts/introToGenerics">
+            Sept 20 2022: Intro to Generics with Type-Level-Typescript
+          </Link>
+        </p>
+
+        <p>
           <Link href="./posts/discriminatedUnionsTS">
             Sept 2 2022: Discriminated Unions in TypeScript
           </Link>
