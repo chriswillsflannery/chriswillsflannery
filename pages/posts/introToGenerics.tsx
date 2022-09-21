@@ -2,6 +2,10 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link';
 import Image from 'next/image';
+import Prism from 'prismjs';
+import "prismjs/components/prism-typescript";
+import "prismjs/components/prism-jsx";
+import "prismjs/components/prism-tsx";
 
 import functionSignature from '../../public/introToGenerics/functionSignature.png';
 import functionSignatureTypescript from '../../public/introToGenerics/functionSignatureTypescript.png';
@@ -10,15 +14,16 @@ import mcTriple from '../../public/introToGenerics/mcTriple.png';
 
 import styles from '../../styles/Home.module.css';
 import HL from '../components/HorizontalLine';
+import { useEffect } from 'react';
 import CodeBlock from '../components/CodeBlock';
 
 const singleGeneric = `
-  function identity(a: TODO): TODO {
-    return a;
-  }
+function identity(a: TODO): TODO {
+  return a;
+}
 
-  identity('Derek');
-  // expected result -> 'Derek'
+identity('Derek');
+// expected result -> 'Derek'
 `;
 
 const singleGenericSolution = `
@@ -83,6 +88,13 @@ const threeGenericsSolution = `
 `;
 
 const IntroToGenerics: NextPage = () => {
+  useEffect(() => {
+    const highlight = async () => {
+      await Prism.highlightAll();
+    }
+    highlight();
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
