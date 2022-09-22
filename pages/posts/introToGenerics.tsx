@@ -28,12 +28,12 @@ identity('Derek');
 `;
 
 const singleGenericSolution = `
-  function identity<T>(a: T): T {
-    return a;
-  }
+function identity<T>(a: T): T {
+  return a;
+}
 
-  identity('Derek');
-  // expected result -> 'Derek'
+identity('Derek');
+// expected result -> 'Derek'
 `;
 
 const twoGenericsDesktop = `
@@ -46,12 +46,12 @@ map(['peas', 'carrots'], (str) => str.length);
 `;
 
 const twoGenericsSolutionDesktop = `
-  function map<T,U>(array: T[], fn: (value: T) => U): U[] {
-    return array.map(fn);
-  }
+function map<T,U>(array: T[], fn: (value: T) => U): U[] {
+  return array.map(fn);
+}
 
-  map(['peas', 'carrots'], (str) => str.length);
-  // expected result -> [4, 7]
+map(['peas', 'carrots'], (str) => str.length);
+// expected result -> [4, 7]
 `;
 
 const twoGenericsMobile = `
@@ -70,50 +70,50 @@ map(
 `;
 
 const twoGenericsSolutionMobile = `
-  function map<T,U>(
-    array: T[],
-    fn: (value: T) => U
-  ): U[] {
-    return array.map(fn);
-  }
+function map<T,U>(
+  array: T[],
+  fn: (value: T) => U
+): U[] {
+  return array.map(fn);
+}
 
-  map(['peas', 'carrots'],
-  (str) => str.length);
-  // expected result -> [4, 7]
+map(['peas', 'carrots'],
+(str) => str.length);
+// expected result -> [4, 7]
 `;
 
 const threeGenerics = `
-  function pipe2(
-    x: TODO,
-    f1: (value: TODO) => TODO,
-    f2: (value: TODO) => TODO
-  ): TODO {
-    return f2(f1(x));
-  }
+function pipe2(
+  x: TODO,
+  f1: (value: TODO) => TODO,
+  f2: (value: TODO) => TODO
+): TODO {
+  return f2(f1(x));
+}
 
-  pipe(
-    { name: 'Alice' },
-    user => user.name,
-    name => name.length > 5,
-  );
-  // expected result => false
+pipe(
+  { name: 'Alice' },
+  user => user.name,
+  name => name.length > 5,
+);
+// expected result => false
 `;
 
 const threeGenericsSolution = `
-  function pipe2<T,U,V>(
-    x: T,
-    f1: (value: T) => U,
-    f2: (value: U) => V
-  ): V {
-    return f2(f1(x));
-  }
+function pipe2<T,U,V>(
+  x: T,
+  f1: (value: T) => U,
+  f2: (value: U) => V
+): V {
+  return f2(f1(x));
+}
 
-  pipe(
-    { name: 'Alice' },
-    user => user.name,
-    name => name.length > 5,
-  );
-  // expected result -> false
+pipe(
+  { name: 'Alice' },
+  user => user.name,
+  name => name.length > 5,
+);
+// expected result -> false
 `;
 
 const IntroToGenerics: NextPage = () => {
