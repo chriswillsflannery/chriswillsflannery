@@ -2,10 +2,11 @@ import { FC } from "react";
 
 type CodeBlockProps = {
   code: string;
+  className?: string;
 }
 
-export const CodeBlock: FC<CodeBlockProps> = ({ code }) => (
-  <pre style={{ padding: '0 10px 15px 10px' }}>
+export const CodeBlock: FC<CodeBlockProps> = ({ code, className }) => (
+  <pre className={className} style={{ padding: '0 10px 15px 10px', fontSize: '14px' }}>
     <code className="language-tsx">
       {code}
     </code>

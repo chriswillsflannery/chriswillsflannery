@@ -16,6 +16,7 @@ import styles from '../../styles/Home.module.css';
 import HL from '../components/HorizontalLine';
 import { useEffect } from 'react';
 import CodeBlock from '../components/CodeBlock';
+import useWindowSize from '../../hooks/useWindowSize';
 
 const singleGeneric = `
 function identity(a: TODO): TODO {
@@ -35,8 +36,17 @@ const singleGenericSolution = `
   // expected result -> 'Derek'
 `;
 
-const twoGenerics = `
-  function map(array: TODO[], fn: (value: TODO) => TODO): TODO[] {
+const twoGenericsDesktop = `
+function map(array: TODO[], fn: (value: TODO) => TODO): TODO[] {
+  return array.map(fn);
+}
+
+map(['peas', 'carrots'], (str) => str.length);
+// expected result -> [4, 7]
+`;
+
+const twoGenericsSolutionDesktop = `
+  function map<T,U>(array: T[], fn: (value: T) => U): U[] {
     return array.map(fn);
   }
 
@@ -44,12 +54,31 @@ const twoGenerics = `
   // expected result -> [4, 7]
 `;
 
-const twoGenericsSolution = `
-  function map<T,U>(array: T[], fn: (value: T) => U): U[] {
+const twoGenericsMobile = `
+function map(
+  array: TODO[],
+  fn: (value: TODO) => TODO
+): TODO[] {
+  return array.map(fn);
+}
+
+map(
+  ['peas', 'carrots'],
+  (str) => str.length
+);
+// expected result -> [4, 7]
+`;
+
+const twoGenericsSolutionMobile = `
+  function map<T,U>(
+    array: T[],
+    fn: (value: T) => U
+  ): U[] {
     return array.map(fn);
   }
 
-  map(['peas', 'carrots'], (str) => str.length);
+  map(['peas', 'carrots'],
+  (str) => str.length);
   // expected result -> [4, 7]
 `;
 
@@ -88,12 +117,14 @@ const threeGenericsSolution = `
 `;
 
 const IntroToGenerics: NextPage = () => {
+  const size = useWindowSize();
+
   useEffect(() => {
     const highlight = async () => {
       await Prism.highlightAll();
     }
     highlight();
-  }, []);
+  }, [size]);
 
   return (
     <div className={styles.container}>
@@ -212,7 +243,8 @@ const IntroToGenerics: NextPage = () => {
 
         <article>
           <h4>Another one, now using a function signature which requires 2 generic values:</h4>
-          <CodeBlock code={twoGenerics} />
+          {size.width > 500 && <CodeBlock className="twoGenericsDesktop" code={twoGenericsDesktop} />}
+          {size.width <= 500 && <CodeBlock className="twoGenericsMobile" code={twoGenericsMobile} />}
           <p>What is the relationship between the inputs and the outputs here?</p>
           <p>We know the function takes an array of things. Here they are strings, but really their type could be anything.</p>
           <p>It also takes in a (callback) function which will run over each value of the array.</p>
@@ -220,7 +252,8 @@ const IntroToGenerics: NextPage = () => {
           <p>The callback function returns a thing. Its type could be anything, and is completely independent of the elements of the array, as well as independent of the parameter the callback function takes in.</p>
           <p>We can call this 2nd variable value U.</p>
           <p>We would then write this function like:</p>
-          <CodeBlock code={twoGenericsSolution} />
+          {size.width > 500 && <CodeBlock code={twoGenericsSolutionDesktop} />}
+          {size.width <= 500 && <CodeBlock code={twoGenericsSolutionMobile} />}
         </article>
 
         <HL />
