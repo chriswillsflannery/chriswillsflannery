@@ -22,6 +22,12 @@ const Home: NextPage = () => {
         </p>
 
         <p>
+          <Link href="./posts/crossword1">
+            Oct 9 2022: Bilingüe Crossword 1: Tema Perú
+          </Link>
+        </p>
+
+        <p>
           <Link href="./posts/introToGenerics">
             Sept 20 2022: Intro to Generics with Type-Level-Typescript
           </Link>
