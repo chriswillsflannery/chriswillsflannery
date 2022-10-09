@@ -31,6 +31,12 @@ const Crossword1: NextPage = () => {
             <h2>Click to play!</h2>
           </a>
         </div>
+
+        <article>
+          <p>In my spare time outside of coding, I like to make crossword puzzles.</p>
+          <p>I hope you enjoy!</p>
+          <p>-Chris</p>
+        </article>
       </main>
 
       <footer className={styles.footer}>
