@@ -12,9 +12,9 @@ import HL from '../components/HorizontalLine';
 import { useEffect } from 'react';
 import CodeBlock from '../components/CodeBlock';
 import useWindowSize from '../../hooks/useWindowSize';
-import failedTyping from '../../public/ExtendingTsGenerics/failedTyping.png';
-import halfwayThere from '../../public/ExtendingTsGenerics/halfwayThere.png';
-import typeNarrowing from '../../public/ExtendingTsGenerics/typeNarrowing.png';
+import failedTyping from '../../public/extendingTsGenerics/failedTyping.png';
+import halfwayThere from '../../public/extendingTsGenerics/halfwayThere.png';
+import typeNarrowing from '../../public/extendingTsGenerics/typeNarrowing.png';
 
 const heartRateDataType = `
 type HeartRateDataType = {
