@@ -1,9 +1,16 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link';
+import { useState } from 'react';
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
+  const [lang, setLang] = useState<'eng'|'esp'>('eng');
+
+  const toggleLang = () => {
+    setLang(lang === 'eng' ? 'esp' : 'eng')
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -12,76 +19,86 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <button
+        onClick={toggleLang}
+        style={{ position: 'absolute', top: '8px', left: '8px', padding: '8px 12px' }}
+      >
+        {lang === 'eng' ? 'Español' : 'English'}
+      </button>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hello there.
+          {lang === 'eng' ? (
+            `Hello There.`
+          ) : (
+            `Qué lo qué.`
+          )}
         </h1>
 
         <p className={styles.description}>
-          <a href="https://www.youtube.com/watch?v=KCwgpOpwixA">This is just a test.</a>
+          <a href="https://www.youtube.com/watch?v=KCwgpOpwixA">
+            {lang === 'eng' ? (
+              `This is just a test.`
+            ) : (
+              `Esto es solo una prueba.`
+            )}
+          </a>
         </p>
 
-        <p>
-          <Link href="./posts/extendingTsGenerics">
-            {`Oct 18 2022: Constraining TS Generics with "Extends" pattern`}
-          </Link>
-        </p>
+        {lang === 'eng' ? (
+          <>
+            <p>
+              <Link href="./posts/extendingTsGenerics">
+                {`Oct 18 2022: Constraining TS Generics with "Extends" pattern`}
+              </Link>
+            </p>
 
-        <p>
-          <Link href="./posts/crossword1">
-            Oct 9 2022: Bilingüe Crossword 1: Tema Perú
-          </Link>
-        </p>
+            <p>
+              <Link href="./posts/crossword1">
+                Oct 9 2022: Bilingüe Crossword 1: Tema Perú
+              </Link>
+            </p>
 
-        <p>
-          <Link href="./posts/introToGenerics">
-            Sept 20 2022: Intro to Generics with Type-Level-Typescript
-          </Link>
-        </p>
+            <p>
+              <Link href="./posts/introToGenerics">
+                Sept 20 2022: Intro to Generics with Type-Level-Typescript
+              </Link>
+            </p>
 
-        <p>
-          <Link href="./posts/discriminatedUnionsTS">
-            Sept 2 2022: Discriminated Unions in TypeScript
-          </Link>
-        </p>
+            <p>
+              <Link href="./posts/discriminatedUnionsTS">
+                Sept 2 2022: Discriminated Unions in TypeScript
+              </Link>
+            </p>
 
-        <p>
-          <Link href="./posts/destructuredVariableFromArray">
-            Aug 31 2022: Destructured variable from array (JS)
-          </Link>
-        </p>
+            <p>
+              <Link href="./posts/destructuredVariableFromArray">
+                Aug 31 2022: Destructured variable from array (JS)
+              </Link>
+            </p>
 
-        <p>
-          <Link href="./posts/turnNextIntoCra">
-            Aug 23 2022: Turning NextJS into CRA
-          </Link>
-        </p>
+            <p>
+              <Link href="./posts/turnNextIntoCra">
+                Aug 23 2022: Turning NextJS into CRA
+              </Link>
+            </p>
 
-        <p>
-          <a href="https://www.youtube.com/watch?v=ByuEfCcj1vg">[EXT] Aug 21 2022: Parse data like a Blade Runner with JavaScript</a>
-        </p>
-        
-        <p>
-          <a href="https://www.youtube.com/watch?v=0V2Mi16xd04">[EXT] Aug 15 2022: Find the Mode of a dataset (sub. Español)</a>
-        </p>
+            <p>
+              <a href="https://www.youtube.com/watch?v=ByuEfCcj1vg">[EXT] Aug 21 2022: Parse data like a Blade Runner with JavaScript</a>
+            </p>
+            
+            <p>
+              <a href="https://www.youtube.com/watch?v=0V2Mi16xd04">[EXT] Aug 15 2022: Find the Mode of a dataset (sub. Español)</a>
+            </p>
+          </>
+        ) : (
+          <p>
+            <Link href="./posts/esp/javaScriptQueEs">
+              20 Oct 2022: JavaScript: ¿Qué es?
+            </Link>
+          </p>
+        )}
 
-        <p>
-          <Link href="./posts/htmlRenderingEngine">
-            Aug 13 2022: HTML Rendering Engine.
-          </Link>
-        </p>
-
-        <p>
-          <Link href="./posts/cssRenderingEngine">
-            Aug 13 2022: CSS Rendering Engine. (1/2)
-          </Link>
-        </p>
-
-        <p>
-          <Link href="./posts/cssRenderingEngine2">
-            Aug 13 2022: CSS Rendering Engine. (2/2)
-          </Link>
-        </p>
       </main>
 
       <footer className={styles.footer}>
