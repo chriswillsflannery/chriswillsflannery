@@ -3,15 +3,14 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import browserStructure from '../../public/htmlRenderingEngine/1-browserStructure.jpg';
-import overview from '../../public/htmlRenderingEngine/1-overview.jpg';
-import parsingFlow from '../../public/htmlRenderingEngine/4-parsingFlow.jpg';
-import errorTolerance from '../../public/htmlRenderingEngine/6-errorTolerance.jpg';
-import parser from '../../public/htmlRenderingEngine/2-parser.jpg';
-import parseTree from '../../public/htmlRenderingEngine/5-parseTree.jpg';
+import browserStructure from '../../../public/htmlRenderingEngine/1-browserStructure.jpg';
+import overview from '../../../public/htmlRenderingEngine/1-overview.jpg';
+import parsingFlow from '../../../public/htmlRenderingEngine/4-parsingFlow.jpg';
+import errorTolerance from '../../../public/htmlRenderingEngine/6-errorTolerance.jpg';
+import parser from '../../../public/htmlRenderingEngine/2-parser.jpg';
+import parseTree from '../../../public/htmlRenderingEngine/5-parseTree.jpg';
 
-
-import styles from '../../styles/Home.module.css';
+import styles from '../../../styles/Home.module.css';
 
 const HtmlRenderingEngine: NextPage = () => {
   return (
@@ -86,7 +85,7 @@ const HtmlRenderingEngine: NextPage = () => {
 
       <footer className={styles.footer}>
         <p>
-          <Link href="../">
+          <Link href="../../">
             Home
           </Link>
         </p>

@@ -3,11 +3,11 @@ import Head from 'next/head'
 import Link from 'next/link';
 import Image from 'next/image';
 
-import crossword1 from '../../public/crossword/crossword1.png';
+import generic from '../../../public/crossword/generic.png';
 
-import styles from '../../styles/Home.module.css';
+import styles from '../../../styles/Home.module.css';
 
-const Crossword1: NextPage = () => {
+const BilingueTvAndFilm: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -17,14 +17,14 @@ const Crossword1: NextPage = () => {
       </Head>
 
       <main className={styles.articleMain}>
-        <h1>{`Bilingüe Crossword 1: Tema Perú`}</h1>
+        <h1>{`Bilingüe Crossword 2: TV and Film`}</h1>
 
         <div>
-          <a href="https://mycrosswordmaker.com/1107303/Bilingue-CW-Tema-Peru">
+          <a href="https://mycrosswordmaker.com/1108794/Bilingue-TV-Film">
             <Image
               width={400}
               height={400}
-              src={crossword1}
+              src={generic}
               alt="Crossword"
               priority
             />
@@ -41,7 +41,7 @@ const Crossword1: NextPage = () => {
 
       <footer className={styles.footer}>
         <p>
-          <Link href="../">
+          <Link href="../../">
             Home
           </Link>
         </p>
@@ -50,4 +50,4 @@ const Crossword1: NextPage = () => {
   )
 }
 
-export default Crossword1
+export default BilingueTvAndFilm

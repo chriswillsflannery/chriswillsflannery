@@ -3,16 +3,16 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link';
 
-import styleComputation from '../../public/cssRenderingEngine2/13-styleComputation.jpg';
-import styleRuleTree from '../../public/cssRenderingEngine2/14-styleRuleTree.jpg';
-import applyRulesCascade from '../../public/cssRenderingEngine2/15-applyRulesCascade.jpg';
-import layout from '../../public/cssRenderingEngine2/16-layout.jpg';
-import layoutProcess from '../../public/cssRenderingEngine2/17-layoutProcess.jpg';
-import cssVisualModel from '../../public/cssRenderingEngine2/18-cssVisualModel.jpg';
-import cssBlockTypes from '../../public/cssRenderingEngine2/19-cssBlockTypes.jpg';
-import cssPositioning from '../../public/cssRenderingEngine2/20-cssPositioning.jpg';
+import styleComputation from '../../../public/cssRenderingEngine2/13-styleComputation.jpg';
+import styleRuleTree from '../../../public/cssRenderingEngine2/14-styleRuleTree.jpg';
+import applyRulesCascade from '../../../public/cssRenderingEngine2/15-applyRulesCascade.jpg';
+import layout from '../../../public/cssRenderingEngine2/16-layout.jpg';
+import layoutProcess from '../../../public/cssRenderingEngine2/17-layoutProcess.jpg';
+import cssVisualModel from '../../../public/cssRenderingEngine2/18-cssVisualModel.jpg';
+import cssBlockTypes from '../../../public/cssRenderingEngine2/19-cssBlockTypes.jpg';
+import cssPositioning from '../../../public/cssRenderingEngine2/20-cssPositioning.jpg';
 
-import styles from '../../styles/Home.module.css';
+import styles from '../../../styles/Home.module.css';
 
 const CSSRenderingEngine: NextPage = () => {
   return (
@@ -101,7 +101,7 @@ const CSSRenderingEngine: NextPage = () => {
 
       <footer className={styles.footer}>
         <p>
-          <Link href="../">
+          <Link href="../../">
             Home
           </Link>
         </p>

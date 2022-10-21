@@ -18,19 +18,19 @@ const Archive: NextPage = () => {
         </p>
 
         <p>
-          <Link href="./posts/htmlRenderingEngine">
+          <Link href="./posts/archive/htmlRenderingEngine">
             Aug 13 2022: HTML Rendering Engine.
           </Link>
         </p>
 
         <p>
-          <Link href="./posts/cssRenderingEngine">
+          <Link href="./posts/archive/cssRenderingEngine">
             Aug 13 2022: CSS Rendering Engine. (1/2)
           </Link>
         </p>
 
         <p>
-          <Link href="./posts/cssRenderingEngine2">
+          <Link href="./posts/archive/cssRenderingEngine2">
             Aug 13 2022: CSS Rendering Engine. (2/2)
           </Link>
         </p>
