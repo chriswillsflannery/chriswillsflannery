@@ -86,11 +86,18 @@ const Home: NextPage = () => {
             </p>
           </>
         ) : (
-          <p>
-            <Link href="./posts/esp/javaScriptQueEs">
-              20 Oct 2022: JavaScript: ¿Qué es?
-            </Link>
-          </p>
+          <>
+            <p>
+              <Link href="./posts/esp/javaScriptVariables">
+                22 Oct 2022: JavaScript: Variables y tipos primitivos
+              </Link>
+            </p>
+            <p>
+              <Link href="./posts/esp/javaScriptQueEs">
+                20 Oct 2022: JavaScript: ¿Qué es?
+              </Link>
+            </p>
+          </>
         )}
 
       </main>
