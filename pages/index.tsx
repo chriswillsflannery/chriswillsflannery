@@ -40,7 +40,7 @@ const Home: NextPage = () => {
             {lang === 'eng' ? (
               `This is just a test.`
             ) : (
-              `Esto es solo una prueba.`
+              `Esto es sólo una prueba.`
             )}
           </a>
         </p>
