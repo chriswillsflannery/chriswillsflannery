@@ -88,6 +88,11 @@ const Home: NextPage = () => {
         ) : (
           <>
             <p>
+              <Link href="./posts/esp/javascriptComoFunciona">
+                24 Oct 2022: JavaScript: ¿Cómo funciona?
+              </Link>
+            </p>
+            <p>
               <Link href="./posts/esp/javaScriptVariables">
                 22 Oct 2022: JavaScript: Variables y tipos primitivos
               </Link>
