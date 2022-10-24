@@ -13,5 +13,3 @@ export const CodeBlock: FC<CodeBlockProps> = ({ code, className, lang = 'tsx' })
     </code>
   </pre>
 );
-
-export default CodeBlock;

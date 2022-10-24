@@ -8,8 +8,7 @@ import "prismjs/components/prism-jsx";
 import "prismjs/components/prism-tsx";
 
 import styles from '../../../styles/Home.module.css';
-import HL from '../../components/HorizontalLine';
-import CodeBlock from '../../components/CodeBlock';
+import { CodeBlock, HL } from '@/pages/components';
 
 const link = { color: 'darkSlateBlue' };
 
