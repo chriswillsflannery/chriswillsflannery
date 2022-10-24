@@ -37,7 +37,7 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           <a href="https://www.youtube.com/watch?v=KCwgpOpwixA">
-            {locale === '' ? (
+            {locale === 'en-US' ? (
               `This is just a test.`
             ) : (
               `Esto es sólo una prueba.`
