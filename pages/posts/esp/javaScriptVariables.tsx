@@ -44,11 +44,11 @@ const corazon = {
 `;
 
 const objectWithObject = `
-const corazón = {
+const corazon = {
   seHaHechoClic: true,
   estilos: {
     color: 'rojo',
-    tamaño: 'grande'
+    tamano: 'grande'
   }
 };
 `;
@@ -93,6 +93,7 @@ const JavaScriptQueEs: NextPage = () => {
           <CodeBlock code={firstObject} />
           <p>Podrías pensar en un objeto como un contenedor por más variables. Cualquiera de las variables descritas en el objeto se llaman <i>propiedades</i> o <i>properties.</i> Estas propiedades en el objeto podrían ser cualquiera de los <i>types</i> mencionados anteriormente... incluso objetos!</p>
           <CodeBlock code={objectWithObject} />
+          <p>* Te habrás dado cuenta de que normalmente no utilizamos el acento o la tilde al escribir nuestro código, incluso cuando utilizamos nombres en español. Este consejo viene de mis amigos de <a style={link} href="https://mytypeof.dev/">my typeof Radio</a>.</p>
         </article>
         <HL />
       </main>
