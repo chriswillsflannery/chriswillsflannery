@@ -1,15 +1,11 @@
 import type { NextPage } from 'next'
+import { useRouter } from 'next/router';
 import Head from 'next/head'
 import Link from 'next/link';
-import { useState } from 'react';
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
-  const [lang, setLang] = useState<'eng'|'esp'>('eng');
-
-  const toggleLang = () => {
-    setLang(lang === 'eng' ? 'esp' : 'eng')
-  }
+  const { locale, locales, asPath } = useRouter(); 
 
   return (
     <div className={styles.container}>
@@ -19,16 +15,20 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <button
-        onClick={toggleLang}
-        style={{ position: 'absolute', top: '8px', left: '8px', padding: '8px 12px' }}
-      >
-        {lang === 'eng' ? 'Español' : 'English'}
-      </button>
+      {locales?.map((l, i) => (
+        <Link key={`${l}-${i}`} style={{ padding: '8px 12px' }} href={asPath} locale={l}>
+          <button
+            style={{ margin: '8px 8px 0 0', padding: '8px 12px', fontWeight: '600', cursor: 'pointer'}}
+            className={l === locale ? styles.selected : ''}
+          >
+            {l === 'en-US' ? 'English' : 'Español'}
+          </button>
+        </Link>
+      ))}
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          {lang === 'eng' ? (
+          {locale === 'en-US' ? (
             `Hello There.`
           ) : (
             `Qué lo qué.`
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           <a href="https://www.youtube.com/watch?v=KCwgpOpwixA">
-            {lang === 'eng' ? (
+            {locale === '' ? (
               `This is just a test.`
             ) : (
               `Esto es sólo una prueba.`
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
           </a>
         </p>
 
-        {lang === 'eng' ? (
+        {locale==='en-US' ? (
           <>
             <p>
               <Link href="./posts/extendingTsGenerics">
@@ -110,12 +110,12 @@ const Home: NextPage = () => {
       <footer className={styles.footer}>
         <p>
           <Link href="./archive">
-            Archive
+            {locale === 'en-US' ? 'Archive' : 'Archivo'}
           </Link>
         </p>
         <p>
           <Link href="./crossword">
-            Crosswords
+            {locale === 'en-US' ? 'Crossword' : 'Crucigramas'}
           </Link>
         </p>
       </footer>
