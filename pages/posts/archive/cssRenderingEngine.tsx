@@ -3,13 +3,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link';
 
-import cssParsing from '../../../public/cssRenderingEngine/8-cssParsing.jpg';
-import cssOM from '../../../public/cssRenderingEngine/9-webkitCSSParser.jpg';
-import orderOfParsing from '../../../public/cssRenderingEngine/10-orderOfProcessing.jpg';
-import renderTreeConstruction from '../../../public/cssRenderingEngine/11-renderTreeConstruction.jpg';
-import renderAndDomTrees from '../../../public/cssRenderingEngine/12-renderAndDomTrees.jpg';
+import cssParsing from '@/public/cssRenderingEngine/8-cssParsing.jpg';
+import cssOM from '@/public/cssRenderingEngine/9-webkitCSSParser.jpg';
+import orderOfParsing from '@/public/cssRenderingEngine/10-orderOfProcessing.jpg';
+import renderTreeConstruction from '@/public/cssRenderingEngine/11-renderTreeConstruction.jpg';
+import renderAndDomTrees from '@/public/cssRenderingEngine/12-renderAndDomTrees.jpg';
 
-import styles from '../../../styles/Home.module.css';
+import styles from '@/styles/Home.module.css';
 
 const CSSRenderingEngine: NextPage = () => {
   return (

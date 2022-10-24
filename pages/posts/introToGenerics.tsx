@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link';
@@ -7,16 +8,14 @@ import "prismjs/components/prism-typescript";
 import "prismjs/components/prism-jsx";
 import "prismjs/components/prism-tsx";
 
-import functionSignature from '../../public/introToGenerics/functionSignature.png';
-import functionSignatureTypescript from '../../public/introToGenerics/functionSignatureTypescript.png';
-import mcConify from '../../public/introToGenerics/mcConify.png';
-import mcTriple from '../../public/introToGenerics/mcTriple.png';
+import functionSignature from '@/public/introToGenerics/functionSignature.png';
+import functionSignatureTypescript from '@/public/introToGenerics/functionSignatureTypescript.png';
+import mcConify from '@/public/introToGenerics/mcConify.png';
+import mcTriple from '@/public/introToGenerics/mcTriple.png';
 
-import styles from '../../styles/Home.module.css';
-import HL from '../components/HorizontalLine';
-import { useEffect } from 'react';
-import CodeBlock from '../components/CodeBlock';
-import useWindowSize from '../../hooks/useWindowSize';
+import { CodeBlock, HL } from '@/components';
+import styles from '@/styles/Home.module.css';
+import useWindowSize from '@/hooks/useWindowSize';
 
 const singleGeneric = `
 function identity(a: TODO): TODO {

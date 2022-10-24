@@ -3,9 +3,9 @@ import Head from 'next/head'
 import Link from 'next/link';
 import Image from 'next/image';
 
-import generic from '../../../public/crossword/generic.png';
+import generic from '@/public/crossword/generic.png';
 
-import styles from '../../../styles/Home.module.css';
+import styles from '@/styles/Home.module.css';
 
 const Crossword1: NextPage = () => {
   return (

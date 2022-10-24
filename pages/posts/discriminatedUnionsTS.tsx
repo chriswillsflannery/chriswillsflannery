@@ -3,14 +3,14 @@ import Head from 'next/head'
 import Link from 'next/link';
 import Image from 'next/image';
 
-import enumAndType from '../../public/discriminatedUnions/enumAndType.jpg';
-import functionUsingGenerics from '../../public/discriminatedUnions/functionUsingGenerics.jpg';
-import hoverOnPayloadGeneric from '../../public/discriminatedUnions/hoverOnPayloadGeneric.jpg';
-import singleUnionType from '../../public/discriminatedUnions/singleUnionType.jpg';
-import singleUnionTypeUsage from '../../public/discriminatedUnions/singleUnionTypeUsage.jpg';
-import hoverOnPayloadUnion from '../../public/discriminatedUnions/hoverOnPayloadUnion.jpg';
+import enumAndType from '@/public/discriminatedUnions/enumAndType.jpg';
+import functionUsingGenerics from '@/public/discriminatedUnions/functionUsingGenerics.jpg';
+import hoverOnPayloadGeneric from '@/public/discriminatedUnions/hoverOnPayloadGeneric.jpg';
+import singleUnionType from '@/public/discriminatedUnions/singleUnionType.jpg';
+import singleUnionTypeUsage from '@/public/discriminatedUnions/singleUnionTypeUsage.jpg';
+import hoverOnPayloadUnion from '@/public/discriminatedUnions/hoverOnPayloadUnion.jpg';
 
-import styles from '../../styles/Home.module.css';
+import styles from '@/styles/Home.module.css';
 
 const DiscriminatedUnions: NextPage = () => {
   return (

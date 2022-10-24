@@ -6,9 +6,8 @@ import Prism from 'prismjs';
 import "prismjs/components/prism-css";
 import "prismjs/components/prism-javascript";
 
-import styles from '../../../styles/Home.module.css';
-import HL from '../../components/HorizontalLine';
-import CodeBlock from '../../components/CodeBlock';
+import styles from '@/styles/Home.module.css';
+import { CodeBlock, HL } from '@/components';
 
 const link = { color: 'darkSlateBlue' };
 

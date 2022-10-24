@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link';
@@ -6,10 +7,9 @@ import "prismjs/components/prism-typescript";
 import "prismjs/components/prism-jsx";
 import "prismjs/components/prism-tsx";
 
-import CodeBlock from '../components/CodeBlock';
+import { CodeBlock } from '@/components';
 
-import styles from '../../styles/Home.module.css';
-import { useEffect } from 'react';
+import styles from '@/styles/Home.module.css';
 
 const link = { color: 'darkSlateBlue' };
 

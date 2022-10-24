@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link';
@@ -7,14 +8,12 @@ import "prismjs/components/prism-typescript";
 import "prismjs/components/prism-jsx";
 import "prismjs/components/prism-tsx";
 
-import styles from '../../styles/Home.module.css';
-import HL from '../components/HorizontalLine';
-import { useEffect } from 'react';
-import CodeBlock from '../components/CodeBlock';
-import useWindowSize from '../../hooks/useWindowSize';
-import failedTyping from '../../public/extendingTsGenerics/failedTyping.png';
-import halfwayThere from '../../public/extendingTsGenerics/halfwayThere.png';
-import typeNarrowing from '../../public/extendingTsGenerics/typeNarrowing.png';
+import styles from '@/styles/Home.module.css';
+import { CodeBlock, HL } from '@/components';
+import useWindowSize from '@/hooks/useWindowSize';
+import failedTyping from '@/public/extendingTsGenerics/failedTyping.png';
+import halfwayThere from '@/public/extendingTsGenerics/halfwayThere.png';
+import typeNarrowing from '@/public/extendingTsGenerics/typeNarrowing.png';
 
 const heartRateDataType = `
 type HeartRateDataType = {

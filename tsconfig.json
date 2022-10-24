@@ -26,6 +26,9 @@
       "@/pages/*": [
         "pages/*"
       ],
+      "@/components": [
+        "components/index.ts"
+      ],
       "@/public/*": [
         "public/*"
       ],
