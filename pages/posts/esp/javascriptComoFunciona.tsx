@@ -59,24 +59,24 @@ const JavaScriptQueEs: NextPage = () => {
         <HL />
 
         <article style={{ maxWidth: '600px', lineHeight: '24px'}}>
-          <h4>JavaScript, como muchas otras lenguajes de programación, es no más que una serie de instrucciónes.</h4>
+          <h4>JavaScript, como muchos otros lenguajes de programación, no es más que una serie de instrucciónes.</h4>
           <p>Cuando escribimos nuestro código, cada línea de código es como una instrucción que damos a la computadora para que haga algo. <i>Ve a la tienda. Compra una botella de leche. Si hay pan, cómpralo.</i></p>
           <CodeBlock code={genericIf} />
-          <p>Podríamos escribir un documento, osea un archivo, lo que se compondrá de muchas líneas de código. Si cada línea de código contiene una sencilla instrucción, por juntar muchas líneas, podemos crear un modelo o blueprint por cómo debería funcionar una aplicación entera. Pero ¿cómo ingiere la computadora estas instrucciónes y interpretarlas?</p>
+          <p>Podríamos escribir un documento, o sea un archivo, lo que se compondrá de muchas líneas de código. Si cada línea de código contiene una sencilla instrucción, a juntar muchas líneas, podemos crear un plano o blueprint por cómo debería funcionar una aplicación. Pero ¿cómo se toma y interpreta la computadora estas instrucciónes?</p>
           <CodeBlock code={compuIf} />
         </article>
         <HL />
 
         <article style={{ maxWidth: '600px', lineHeight: '24px'}}>
           <h4>JavaScript Runtime Environment</h4>
-          <p>JavaScript requiere algo llamado un <i>runtime environment</i> para leer estas instrucciónes, interpretarlas y diga a otras partes de la computadora que hagan algo. Hay dos <i>runtimes</i> principales en los que podemos enfocar: <b>Web Browsers o Navegadores</b> y <b>NodeJS</b>. Más o menos podrías pensar en estas como <i>front-end</i> y <i>back-end</i>. Un navegador va a mostrar el <i>front-end</i> - es lo que el usuario va a ver. Por ejemplo al visitar Facebook verá una lista de fotos y artículos de las notícias. </p>
-          <p><i>NodeJS</i> es la porción del <i>back-end</i> - es un sistema de componentes &quot;corriendo&quot; siempre en tu computadora, tomando varios instrucciónes, y indicando a otras partes del software o hardware de la computadora que hagan varias cosas.</p>
+          <p>JavaScript requiere algo llamado un <i>runtime environment</i> para leer estas instrucciónes, interpretarlas y manda instrucciónes a otras partes de la computadora. Hay dos <i>runtimes</i> principales en los que podemos enfocarnos: <b>Web Browsers o Navegadores</b> y <b>NodeJS</b>. Más o menos podrías pensar en estas como <i>front-end</i> y <i>back-end</i>. Un navegador va a mostrar el <i>front-end</i> - es lo que verá el usuario. Por ejemplo al visitar Facebook verá una lista de fotos y artículos de las notícias. </p>
+          <p><i>NodeJS</i> es la porción del <i>back-end</i> - es un sistema de componentes &quot;ejecutandose&quot; siempre en tu computadora, tomandose varias instrucciónes, y indicando a otras partes del software o hardware de la computadora que hagan varias cosas.</p>
         </article>
         <HL />
 
         <article style={{ maxWidth: '600px', lineHeight: '24px'}}>
           <h4>JavaScript y interacción</h4>
-          <p>Cuando hablamos de las aplicaciónes del web, JavaScript es la única lenguaje de programación que puede indicar al navegador lo que debe hacer. <a style={link} href="./javaScriptQueEs">JavaScript funciona junto a HTML y CSS</a> a proveer una página del web la interactividad - por ejemplo cuando un usuario hace <i>clic</i> un <a style={link} href="./javaScriptVariables">ícono del corazón para <i>like</i> un post</a>, JavaScript puede &quot;capturar&quot; este evento y decir a la página del web que pinte un corazón rojo en vez de transparent para mostrar que este post ya esta &quot;liked&quot;.</p>
+          <p>Cuando hablamos de las aplicaciónes del web, JavaScript es el único lenguaje de programación que puede indicar al navegador lo que debe hacer. <a style={link} href="./javaScriptQueEs">JavaScript funciona junto a HTML y CSS</a> a proveer una página del web la interactividad - por ejemplo cuando un usuario hace <i>clic</i> un <a style={link} href="./javaScriptVariables">ícono del corazón para darle <i>like</i> un post</a>, JavaScript puede &quot;capturar&quot; este evento y decir a la página del web que pinte un corazón rojo en vez de transparente para mostrar que este post ya se lo ha dado &quot;like&quot;.</p>
           <CodeBlock code={changeHeartColor} />
         </article>
         <HL />

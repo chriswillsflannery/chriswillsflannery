@@ -74,23 +74,23 @@ const JavaScriptQueEs: NextPage = () => {
 
         <article style={{ maxWidth: '600px', lineHeight: '24px'}}>
           <h4>En JavaScript, ¿qué es una variable?</h4>
-          <p>Las variables son elementos que nos permiten almanecer datos - datos con los que luego podemos usar y manipular. Las variables nos permiten almanecer y referenciar información en la memoria de nuestros dispositívos.</p>
+          <p>Las variables son elementos que nos permiten almacenar datos - datos que luego podemos usar y manipular. Las variables nos permiten almacenar y hacer referencia a la información en la memoria de nuestros dispositívos.</p>
           <CodeBlock code={comoMePorto} />
-          <p>Digamos que queremos crear una app como TikTok. Cuando alguien sube un nuevo video, queremos que la gente pueda <i>like</i> su video por hacer <i>clic</i> en el icono del corazón. Cuando hace <i>clic</i>, el corazón deberia volverse rojo.</p>
-          <p>La variable en este caso sería <b>corazón.</b> Corazón podría tener una multitúd de diferentes <i>estados</i> or <i>states.</i> Corazón podría ser `rojo` o `transparente` - estes tipos de datos se llaman <i>strings.</i> Los parecen así:</p>
+          <p>Digamos que queremos crear una app como TikTok. Cuando alguien sube un nuevo video, queremos que la gente pueda darle <i>like</i> a su video por hacer <i>clic</i> en el ícono del corazón. Cuando hace <i>clic</i>, el corazón deberia volverse rojo.</p>
+          <p>La variable en este caso sería <b>corazón.</b> Corazón podría tener una multitúd de diferentes <i>estados</i> or <i>states.</i> Corazón podría ser `rojo` o `transparente` - estos tipos de datos se llaman <i>strings.</i> Se ven así:</p>
           <CodeBlock code={strings} />
-          <p>O, <b>corazón</b> podría ser un tipo de dato más complejo, que a su vez tiene mas <i>states.</i> Esto podría ser como:</p>
+          <p>O, <b>corazón</b> podría ser un tipo de dato más complejo, que a su vez tiene mas <i>states.</i> Esto podría aparecer así:</p>
           <CodeBlock code={complexStrings} />
         </article>
         <HL />
 
         <article style={{ maxWidth: '600px', lineHeight: '24px'}}>
-          <h4>Hay muchos diferentes <i>tipos</i> o <i>types</i> que las variables puedan ser en JavaScript, algunos son:</h4>
+          <h4>Las variables pueden venir de muchos diferentes <i>tipos</i> o <i>types</i>; aquí hay algunos:</h4>
           <CodeBlock code={primitiveTypes} />
-          <p>Los de arriba están conocidos como <i>primitivos</i> y son los mas sencillos, y fundamentales bloques de construcción de la lenguaje.</p>
+          <p>Los de arriba están conocidos como <i>primitivos</i> y son los más sencillos, y fundamentales bloques de construcción del lenguaje.</p>
           <p>También hay tipos de datos más complejos conocidos como <i>objetos</i> o <i>objects.</i> El ejemplo de arriba donde <b>corazón</b> tiene muchos diferentes <i>states</i> (seHaHechoClic, color) es un objeto, se ve así:</p>
           <CodeBlock code={firstObject} />
-          <p>Podrías pensar en un objeto como un contenedor por más variables. Cualquiera de las variables descritas en el objeto se llaman <i>propiedades</i> o <i>properties.</i> Estas propiedades en el objeto podrían ser cualquiera de los <i>types</i> mencionados anteriormente... incluso objetos!</p>
+          <p>Hay que pensar en un objeto como un contenedor de variables. Cualquiera de las variables descritas en el objeto se llaman <i>propiedades</i> o <i>properties.</i> Estas propiedades en el objeto podrían ser cualquiera de los <i>types</i> mencionados anteriormente... incluso objetos!</p>
           <CodeBlock code={objectWithObject} />
           <p>* Te habrás dado cuenta de que normalmente no utilizamos el acento o la tilde al escribir nuestro código, incluso cuando utilizamos nombres en español. Este consejo viene de mis amigos de <a style={link} href="https://mytypeof.dev/">my typeof Radio</a>.</p>
         </article>
