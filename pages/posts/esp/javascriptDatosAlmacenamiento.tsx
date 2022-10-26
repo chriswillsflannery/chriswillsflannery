@@ -10,7 +10,7 @@ import "prismjs/components/prism-tsx";
 
 import styles from '@/styles/Home.module.css';
 import { CodeBlock, HL } from '@/components';
-import firstVariables from '@/public/javascriptDatos/firstVariables.jpg';
+import firstVariables from '@/public/javascriptDatos/firstvariables.jpg';
 import threadOfEx from '@/public/javascriptDatos/threadOfEx.jpg';
 import consoleEx from '@/public/javascriptDatos/consoleEx.png';
 
