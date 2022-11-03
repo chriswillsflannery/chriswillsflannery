@@ -88,6 +88,11 @@ const Home: NextPage = () => {
         ) : (
           <>
             <p>
+              <Link href="./posts/esp/javascriptLoops">
+                31 Oct 2022: JavaScript: Loops
+              </Link>
+            </p>
+            <p>
               <Link href="./posts/esp/javascriptDatosAlmacenamiento">
                 27 Oct 2022: JavaScript: Almacenamiento de datos
               </Link>
