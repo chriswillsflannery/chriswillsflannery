@@ -31,7 +31,7 @@ const Home: NextPage = () => {
           {locale === 'en-US' ? (
             `Hello There.`
           ) : (
-            `Qué lo qué.`
+            `Bueeeenas.`
           )}
         </h1>
 
