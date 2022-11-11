@@ -78,7 +78,7 @@ const JavaScriptQueEs: NextPage = () => {
       </Head>
 
       <main className={styles.articleMain}>
-        <h1>{`JavaScript: Loops`}</h1>
+        <h1>{`JavaScript: For Loops`}</h1>
         <HL />
 
         <article style={{ maxWidth: '600px', lineHeight: '24px'}}>

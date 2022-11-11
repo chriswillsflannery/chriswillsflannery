@@ -88,13 +88,18 @@ const Home: NextPage = () => {
         ) : (
           <>
             <p>
+              <Link href="./posts/esp/javascriptForEach">
+                10 Nov 2022: JavaScript: forEach()
+              </Link>
+            </p>
+            <p>
               <Link href="./posts/esp/javascriptArrayMethods">
-                10 Nov 2022: JavaScript: Métodos de Array
+                8 Nov 2022: JavaScript: Métodos de Array
               </Link>
             </p>
             <p>
               <Link href="./posts/esp/javascriptLoops">
-                31 Oct 2022: JavaScript: Loops
+                31 Oct 2022: JavaScript: For Loops
               </Link>
             </p>
             <p>
