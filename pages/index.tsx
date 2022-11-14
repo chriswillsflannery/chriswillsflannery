@@ -88,6 +88,11 @@ const Home: NextPage = () => {
         ) : (
           <>
             <p>
+              <Link href="./posts/esp/javascriptMap">
+                15 Nov 2022: JavaScript: map()
+              </Link>
+            </p>
+            <p>
               <Link href="./posts/esp/javascriptForEach">
                 10 Nov 2022: JavaScript: forEach()
               </Link>
