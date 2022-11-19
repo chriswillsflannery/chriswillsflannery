@@ -88,6 +88,11 @@ const Home: NextPage = () => {
         ) : (
           <>
             <p>
+              <Link href="./posts/esp/javascriptReduce">
+                20 Nov 2022: JavaScript: reduce()
+              </Link>
+            </p>
+            <p>
               <Link href="./posts/esp/javascriptMap">
                 15 Nov 2022: JavaScript: map()
               </Link>
