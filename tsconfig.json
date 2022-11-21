@@ -35,6 +35,9 @@
       "@/styles/*": [
         "styles/*"
       ],
+      "@/util/*": [
+        "util/*"
+      ]
     }
   },
   "include": [

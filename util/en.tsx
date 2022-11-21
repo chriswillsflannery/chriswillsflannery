@@ -1,0 +1,25 @@
+export const en = {
+  oop1: {
+    title: <h1>Object-Oriented Programming: 1. Data lookup on objects</h1>,
+    sub1: <h4>Objects: how do they work?</h4>,
+    1: <p>Today we will talk about how to retrieve data from objects and a couple of pitfalls and edge cases to watch out for.</p>,
+    2: <p>Here I have defined an object literal:</p>,
+    3: <p>It has 2 properties or key-value pairs which have string values, as well as one key which has a function for a value. We call this a <i>method.</i></p>,
+    4: <p>Properties can be retrieved in one of two ways:</p>,
+    5: <p>We can use dot notation, or bracket notation - which we will discuss later. Dot notation is used when we want to look up a property on an object, and we know the name of the property we are looking up (in the above example, this is <i>fur</i>). So when we directly reference the property <i>fur</i> on <b>dog</b>, this will return the associated value, &quot;brown&quot;.</p>,
+    6: <p>What happens if we try to reference a property that doesn&apos;t exist? For example:</p>,
+    7: <p>If we are not necessarily sure that a property exists on an object, one way we can prevent against this is by using the logical <b>OR</b> operator:</p>,
+    8: <p>What we are saying here is, if the property <b>height</b> does not exist on <b>dog</b>, then we want to return 10. This is part of a larger concept known as <i>defensive coding.</i></p>,
+    9: <p>What if we want to update a property on an object? Let&apos;s say we want to change <b>dog</b>&apos;s eyes to be <i>green.</i> We can reassign the property:</p>,
+    10: <p>We can use dot notation here because we know that <i>eyes</i> is an existing property on the object. But what would happen if we tried to do this with a property that does not exist on the object?</p>,
+    11: <p>It&apos;s not going to update anything - there&apos;s no preexisting property called <b>weight</b> to update - rather, it will simply add a new property to the object:</p>,
+    12: <h4>Bracket Notation</h4>,
+    13: <p>What if we don&apos;t necessarily know the name of the key we are trying to reference? Or if for some reason we don&apos;t have access to that key?</p>,
+    14: <p>We have declared an object with 2 properties, then a function - this function takes in as parameters an object and a name, and attempts to lookup this &apos;name&apos; on the object via bracket notation and return its corresponding value. So later when we call this function, passing in as arguments a reference to the object &apos;scores&apos; and the string &apos;chris&apos;, the function will return <b>scores[&apos;chris&apos;]</b>.</p>,
+    15: <p>This is a great pattern because it makes this function reusable - the bracket lookup notation allows us to dynamically look up a property on the object using a <i>variable</i> rather than the literal name of the key.</p>,
+    16: <p>In every object in JavaScript, it is implied that the keys of an object are type <i>string</i>:</p>,
+    17: <p>Here, the <i>date</i> is a string and its corresponding value is a number. Same thing for <i>price.</i> What if we needed to create a key on the object with special characters?</p>,
+    18: <p>For non-alphanumerical key names (here our key has a dash) we can wrap the keys in quotes:</p>,
+    19: <p>The we can later lookup <i>price-USD</i> using bracket notation:</p>,
+  }
+}
