@@ -18,7 +18,7 @@ export const es = {
     15: <p>Esto es un modelo bueno porque hace que la función sea reutilizable - la notación de corchete nos da la habilidad de buscar una propiedad en el objeto dinámicamente por usar una variable, en lugar del nombre literal de la clave.</p>,
     16: <p>En cada objeto de JavaScript, está implícito que las claves de un objeto son de type <i>string</i>:</p>,
     17: <p>Aquí, el <i>date</i> es un string y su valor corespondiente es un número. La misma cosa por <i>price.</i> ¿Y si necesitamos crear una clave en el objeto con caracteres especiales?</p>,
-    18: <p>Y por los nombres de clave no alfanuméricos (aquí nuestra clave tiene guión) podemos rodear las claves con comillas:</p>
+    18: <p>Y por los nombres de clave no alfanuméricos (aquí nuestra clave tiene guión) podemos rodear las claves con comillas:</p>,
     19: <p>Entonces luego podemos recuperar <i>price-USD</i> por usar notación de corchete:</p>,
   }
 }
