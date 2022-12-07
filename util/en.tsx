@@ -1,6 +1,6 @@
 export const en = {
   oop1: {
-    title: <h1>Object-Oriented Programming: 1. Data lookup on objects</h1>,
+    title: <h1>Object-Oriented Programming in JS: 1. Data lookup on objects</h1>,
     sub1: <h4>Objects: how do they work?</h4>,
     1: <p>Today we will talk about how to retrieve data from objects and a couple of pitfalls and edge cases to watch out for.</p>,
     2: <p>Here I have defined an object literal:</p>,
@@ -21,5 +21,27 @@ export const en = {
     17: <p>Here, the <i>date</i> is a string and its corresponding value is a number. Same thing for <i>price.</i> What if we needed to create a key on the object with special characters?</p>,
     18: <p>For non-alphanumerical key names (here our key has a dash) we can wrap the keys in quotes:</p>,
     19: <p>The we can later lookup <i>price-USD</i> using bracket notation:</p>,
+  },
+  oop2: {
+    title: <h1>Object-Oriented Programming in JS: 2. Prototypal Inheritance</h1>,
+    sub1: <h4>What the heck is an object prototype? This isn&apos;t the Java I know and love! Argh!! In this video I break down parent-child relationships inherent to all objects in JavaScript and why understanding this matters.</h4>,
+    1: <p>So, a fundamental piece of OOP in JavaScript: all objects in JavaScript are interconnected in a parent-child relationship. The way that they actually connect is via this invisible chain, and the property which will give us access to that chain is something called <b>[[Prototype]]</b>.</p>,
+    2: <p>If I open up a new browser tab and enter into the browser devtools, into the `console` tab, I want to see that chain link from the parent to the child.</p>,
+    3: <p>In JavaScript, there is a single `parent` object which exists as a `model` for all of the objects that we create. We want to see what the chain link looks like on this parent object. I&apos;m going to create a new object using object literal syntax to instantiate it.</p>,
+    4: <p>It says undefined - I haven&apos;t actually done anything with this variable yet, so this is expected. What I want to do is look at the properties of myObj - I&apos;m going to open this little triangle icon to view this object&apos;s properties:</p>,
+    5: <p>This is a new object, it has no properties yet, because I haven&apos;t done anything inside of it yet. But it has this one, kind of greyed-out, secret property, called <b>[[Prototype]]</b>. So where does this link to? Well, it&apos;s a pointer to another object - if you&apos;ve seen some of my other videos, we know that this all objects in JavaScript are `passed by reference`. So it is referencing another object called `Object`.</p>,
+    6: <p>If we open this panel up we&apos;ll see all of the properties of Object. Now this chain, this connection between Object and all of the regular objects we create, is called the <i>Prototypal Chain</i>. It is called this because anytime we have this parent-child relationship between 2 objects, the parent is called the object&apos;s `Prototype`.</p>,
+    7: <p>All objects in JavaScript inherit from Object. If I create more objects, they will all have a prototypal link to Object.</p>,
+    8: <p>Similarly, we have something in JavaScript called Array. And when I create a new array, using array literal syntax (square brackets), this will now inherit properties from Array. So Array will be the Prototype of the array I just created. Interestingly, the Prototype of Array is Object. This means that when I instantiate a new array, it will inherit all of the available properties of the parent Prototype Array, as well as all of the properties of the grandparent Prototype Object.</p>,
+    9: <p>If we re-enter the browser devtools and create a new array, then view the properties of this array, we can see a [[Prototype]] link to Array, then in Array we can see a [[Prototype]] link to Object.</p>,
+    10: <p>So we always refer to an object&apos;s parent as its Prototype. But an object&apos;s prototype doesn&apos;t necessarily need to be Array or Object. We can actually create this parent-child relationships between 2 objects that we create, so that one can inherit properties from the other. In the past (up to ES6), we used do this using a special method called <b>Object.create().</b> Nowadays, this method is essentially deprecated, but it is still instructive to show how the language works under the hood.</p>,
+    11: <p>So we&apos;ve created a new object here, <b>myPerson</b>, and we want this to act as the `parent`, so that other objects can have a link to myPerson. If I create an object called Chris, using Object.create()...</p>,
+    12: <p>...And if I were to pass in null, what do we think will happen? This will create an empty object. In the past, this newly created object would have a [[Prototype]] link, but interestingly, this seems to have now been removed as a feature. Where do we think the [[Prototype]] of this new object would have linked to? Well, if we use null here, then the [[Prototype]] would link up to Object, just like what we saw when we created a new object using object literal syntax (brackets). These days, with improvements to the language, Object.create(null) actually just seems to create an empty object with nothing inside it at all!</p>,
+    13: <p>I want my <b>chris</b> object to inherit properties from <b>myPerson.</b> In other words, I want myPerson to be the parent, and chris to be the child. How do we do that? We will pass in myPerson as the argument to Object.create().</p>,
+    14: <p>Let&apos;s now take a look at <b>chris</b> in the browser devtools and see what happened - I&apos;m going to paste this in:</p>,
+    15: <p>We see here that Object.create() created an object - and let&apos;s open it up and take a look at its properties - let&apos;s see where the [[Prototype]] links to:</p>,
+    16: <p>We can see that the properties of its Prototype - its parent - are the properties of myPerson. And we can see that this object&apos;s [[Prototype]] links to Object. So you can see that by using the Object.create() method, passing in a reference to another object, we have effectively created a parent-child relationship between 2 objects which we have created. We&apos;ll explore why this is useful in more depth later.</p>,
+    17: <p>Why is this useful? When we want to look up a property on an object, that object might not have the property we are looking for. So what JavaScript will do is it will say, okay, this current object doesn&apos;t have the property we&apos;re looking for, so let&apos;s look up the prototypal chain to see if maybe some ancestor of this object has that property. If this property doesn&apos;t exist anywhere in the prototypal chain, it will return <i>undefined.</i></p>,
+    18: <p>This process of searching up the prototypal chain is called <i>delegation.</i></p>,
   }
 }
