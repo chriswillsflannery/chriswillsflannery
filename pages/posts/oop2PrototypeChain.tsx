@@ -14,9 +14,9 @@ import styles from '@/styles/Home.module.css';
 import useWindowSize from '@/hooks/useWindowSize';
 import { en } from '@/util/en';
 import { es } from '@/util/es';
-import dunderProto from '@/public/oop/dunderProto.jpg';
+import dunderProto from '@/public/oop/dunderproto.jpg';
 import ObjectArray from '@/public/oop/ObjectArray.jpg';
-import objectLiteral from '@/public/oop/objectLiteral.jpg';
+import objectLiteral from '@/public/oop/objectliteral.jpg';
 import myObjPrototype from '@/public/oop/myObjPrototype.jpg';
 import undefined from '@/public/oop/undefined.jpg';
 import propertiesofObject from '@/public/oop/propertiesofObject.jpg';
@@ -135,7 +135,7 @@ const IntroToGenerics: NextPage = () => {
           />
           {myLang.oop2[15]}
           <Image
-            src={chris}
+            src={chris2}
             alt="chris object"
             width={600}
             height={350}
