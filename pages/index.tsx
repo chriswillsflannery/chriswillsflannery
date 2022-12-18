@@ -38,6 +38,12 @@ const Home: NextPage = () => {
         {locale==='en-US' ? (
           <>
             <p>
+              <Link href="./posts/oop3DataManipulation">
+                {`Object-Oriented Programming in JS: 3. Data Manipulation`}
+              </Link>
+            </p>
+          
+            <p>
               <Link href="./posts/oop2PrototypeChain">
                 {`Object-Oriented Programming in JS: 2. Prototypal Inheritance`}
               </Link>
@@ -90,13 +96,18 @@ const Home: NextPage = () => {
         ) : (
           <>
             <p>
+              <Link href="./posts/oop3DataManipulation">
+                {`Object-Oriented Programación en JS: 3. Manipulación de Datos`}
+              </Link>
+            </p>
+            <p>
               <Link href="./posts/oop2PrototypeChain">
-                {`Object-Oriented Programación: 2. Herencia Prototípica`}
+                {`Object-Oriented Programación en JS: 2. Herencia Prototípica`}
               </Link>
             </p>
             <p>
               <Link href="./posts/oop1DataLookup">
-                {`Object-Oriented Programación: 1. Busquéda de datos en objetos`}
+                {`Object-Oriented Programación en JS: 1. Busquéda de datos en objetos`}
               </Link>
             </p>
             <p>
