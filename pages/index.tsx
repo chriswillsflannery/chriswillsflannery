@@ -38,6 +38,12 @@ const Home: NextPage = () => {
         {locale==='en-US' ? (
           <>
             <p>
+              <Link href="./posts/snowCrash">
+                {`Snow Crash: Machine Learning & The Future of Research`}
+              </Link>
+            </p>
+
+            <p>
               <Link href="./posts/oop3DataManipulation">
                 {`Object-Oriented Programming in JS: 3. Data Manipulation`}
               </Link>
