@@ -1,4 +1,9 @@
 export const es = {
+  snowCrash: {
+    title: <h1>Snow Crash: Machine Learning & The Future of Research</h1>,
+    sub1: <h4>What determines &apos;original&apos; content anyway? </h4>,
+    1: <p>Coming Soon</p>,
+  },
   oop1: {
     title: <h1>Object-Oriented Programación en JS: 1. Busquéda de datos en objetos</h1>,
     1: <p>Hoy vamos a hablar sobre como recuperar datos de los objetos y algunos errores comunes y <i>edge cases</i> a tener en cuenta.</p>,
