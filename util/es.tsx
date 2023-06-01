@@ -67,5 +67,10 @@ export const es = {
     14: <p>Sin embargo, ¿Qué pasaría si intentáramos eliminar una propiedad que existe más arriba del vínculo prototípico?</p>,
     15: <p>¿Aún tiene chris la propiedad <b>arms</b> - la que existe más arriba del vínculo? Sí - la tiene. Así que no pude eliminar una propiedad arriba del vínculo con <b>delete</b>. Para eliminar esa propiedad <b>arms</b>, tendría que eliminar el vínculo entre chris y myPerson, o eliminar <b>arms</b> directamente de myPerson. Cuando tenemos propiedades que existen arriba del vínculo que no se puede eliminar, esas están llamados <i>propiedades no-configurables</i>.</p>,
     16: <p>Cualquieras propiedades que existen en objetos por defecto, como <b>Object.hasOwnProperty</b> o <b>Array.push</b>, se consideran propiedades no-configurables. Existen por defector - están ahí nativamente - y no las pueden eliminarse.</p>,
+  },
+  aiTakeCodingJobs: {
+    title: <h1>Will AI replace coding jobs?</h1>,
+    sub1: <h4>Short answer, <i>yeah, probably.</i> How soon? Well, that largely remains to be seen.</h4>,
+    1: <p>Coming soon</p>,
   }
 }
