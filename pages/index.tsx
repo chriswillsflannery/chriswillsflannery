@@ -38,6 +38,12 @@ const Home: NextPage = () => {
         {locale==='en-US' ? (
           <>
             <p>
+              <Link href="./posts/useFetch">
+                {`Custom TS React hook: useFetch`}
+              </Link>
+            </p>
+
+            <p>
               <Link href="./posts/willAITakeCodingJobs">
                 {`Will A.I. Replace Coding Jobs?`}
               </Link>
