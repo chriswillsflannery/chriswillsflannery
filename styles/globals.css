@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  line-height: 20px;
+}
+
 * {
   box-sizing: border-box;
 }

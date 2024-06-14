@@ -38,6 +38,12 @@ const Home: NextPage = () => {
         {locale==='en-US' ? (
           <>
             <p>
+              <Link href="./posts/uiStringPatternMatching">
+                {`React: UI string pattern matching with Regex`}
+              </Link>
+            </p>
+
+            <p>
               <Link href="./posts/cookieClickerReact">
                 {`Cookie Clicker: React Refs`}
               </Link>
