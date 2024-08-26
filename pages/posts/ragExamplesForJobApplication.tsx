@@ -46,6 +46,23 @@ const RagExamplesForJobApplication: NextPage = () => {
             <h3>{`How would you describe your balance and depth between backend and frontend skills?`}</h3>
             <p>{`60/40 frontend-backend, but continuously learning across the stack. Devops novice continuously improving my skills with the help of AI. Builder, hacker, learner, community-oriented.`}</p>
         </article>
+        <HL />
+
+        <article>
+            <h3>{`Can you provide an example of a challenging project you worked on and how you overcame the difficulties?`}</h3>
+            <p>{`One of the services I worked on in a previous role was the ability to conduct remote clinical trials in a way which more closely reflects how on-prem clinical trials are conducted. It was necessary to introduce the concept of a “visit” to the digital platform. A “Visit” describes a predefined period of time in which the Study Coordinator and the Participant(s) conduct any assessments, including participant assessments and clinician assessments.`}</p>
+            <p>{`For this to work, we needed a concept of a “Study visit” as well as a concept of a “participant visit”. The clinician should be able to go into a Study dashboard, and create a configuration for an upcoming Visit for that study. This configuration describes all of the tasks, including participant assessments, checkbox-like tasks, and clinician assessments which are required to be completed on that study visit day. The study visit configuration should also include information like how long that visit should last, and to which Study Schedule Period it pertains.`}</p>
+            <p>{`With the study visit configured, the clinician should then be able to go into the individual Participant dashboard, and create a configuration for that individual Participant’s visit, as it pertains to the larger Study Visit. The date, start time and end time are configured as an offset value of the Study Period which the visit pertains to. For example, the clinician may decide that the Participant Visit should start on Day 1 of Study Period 1, become active at 9am, and last 5 hours. Once the configuration is complete for the Participant visit and the clinician saves the configuration, the Visit will populate the Participant’s calendar view. `}</p>
+            <p>{`On the day of the Participant Visit, the clinician can open a panel to view information about the visit, such as start and end time, and a task list - including manually launchable assessments which are scoped to that Visit, checkbox-type tasks, and clinician assessments which are scoped to that Visit.`}</p>
+        </article>
+        <HL />
+
+        <article>
+            <h3>{`How do you stay current with industry trends and new technologies?`}</h3>
+            <p>{`To be clear, I don’t think that “keeping up to date” directly equates to “career growth” or even “becoming a better engineer”, although there is probably some correlation and overlap. I think keeping up with trends is important, but we’ve seen recently in Pieter Levels’ interview on the Lex Fridman podcast that you can hack on the same PHP stack for 20 years and be a wildly successful entrepreneur millionaire. Not everybody needs to be an early adopter to RAG pipelines and Tanstack Query.`}</p>
+            <p>{`That being said, there can be a lot of benefit to being an early adopter, depending on how you spin it. Just knowing what RAG is at a conceptual level, and that it is possible, and relatively easy to implement, can plant a seed for a future project or startup. X is one of the best places to discover what’s trending in the hivemind, although it can also be an echo chamber of un-vetted ideas. Yes, Cursor is awesome, but if you’re only learning about it today, that’s totally OK. You’re going to be just fine.`}</p>
+            <p>{`At the end of the day, the most important tech stack, library, framework, technology, etc. is the one which best does the job, not necessarily the one which is the most hyped on tiktok. Yes, Vercel is great for early startups, but it may not be the right solution at scale. There is nuance to everything. As with most great engineering designs, the correct response is almost always “it depends.”`}</p>
+        </article>
 
       </main>
 
