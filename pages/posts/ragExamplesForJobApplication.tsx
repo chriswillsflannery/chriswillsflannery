@@ -19,6 +19,12 @@ const RagExamplesForJobApplication: NextPage = () => {
         <h1>{`Here are some Q&A examples we can do RAG on for easier job application form field completion.`}</h1>
         <HL />
 
+        <p>
+          <a style={{ color: 'coral' }} href='https://github.com/chriswillsflannery/rag-from-scratch/blob/main/rag-for-job-apps.ipynb'>
+            Jupyter notebook with RAG pipeline using these Q&A
+          </a>
+        </p>
+
         <article>
             <h3>{`What considerations do you make when designing and implementing a technical solution?`}</h3>
             <p>{`What is it that the end user really needs / are the product requirements clearly defined, and do they correctly align with the real needs of the platform / customer?`}</p>
