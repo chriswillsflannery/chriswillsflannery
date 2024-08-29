@@ -25,6 +25,12 @@ const RagExamplesForJobApplication: NextPage = () => {
           </a>
         </p>
 
+        <p>
+          <a style={{ color: 'darkcyan' }} href='https://application-answer-generator-wxo6nxdvpq-uk.a.run.app/'>
+            Try it out here (Flask app)
+          </a>
+        </p>
+
         <article>
             <h3>{`What considerations do you make when designing and implementing a technical solution?`}</h3>
             <p>{`What is it that the end user really needs / are the product requirements clearly defined, and do they correctly align with the real needs of the platform / customer?`}</p>
