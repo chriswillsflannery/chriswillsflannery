@@ -31,6 +31,15 @@ const RagExamplesForJobApplication: NextPage = () => {
           </a>
         </p>
 
+        <p>
+          Todo: (consider this a living document)
+        </p>
+        <ul>
+          <li>Smarter document chunking by contextual breakpoints rather than char count</li>
+          <li>System prompt needs tweaking for tone of voice</li>
+          <li>Expand document base</li>
+        </ul>
+
         <article>
             <h3>{`What considerations do you make when designing and implementing a technical solution?`}</h3>
             <p>{`What is it that the end user really needs / are the product requirements clearly defined, and do they correctly align with the real needs of the platform / customer?`}</p>
