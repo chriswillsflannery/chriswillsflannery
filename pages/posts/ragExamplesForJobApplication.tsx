@@ -35,7 +35,7 @@ const RagExamplesForJobApplication: NextPage = () => {
           Todo: (consider this a living document)
         </p>
         <ul>
-          <li>Explore reflection-70b "reflection" type system prompt efficacy</li>
+          <li>Explore reflection-70b reflection-type system prompt efficacy</li>
           <li>Expand document base</li>
         </ul>
 
