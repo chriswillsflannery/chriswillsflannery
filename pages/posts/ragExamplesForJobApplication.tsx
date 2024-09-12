@@ -35,9 +35,16 @@ const RagExamplesForJobApplication: NextPage = () => {
           Todo: (consider this a living document)
         </p>
         <ul>
-          <li>Smarter document chunking by contextual breakpoints rather than char count</li>
-          <li>System prompt needs tweaking for tone of voice</li>
+          <li>Explore reflection-70b "reflection" type system prompt efficacy</li>
           <li>Expand document base</li>
+        </ul>
+
+        <p>Changelog</p>
+
+        <h5>9-11-24</h5>
+        <ul>
+          <li>Improved document chunking by semantic q&a tags rather than char count</li>
+          <li>Improved system prompt to force 1st person tone</li>
         </ul>
 
         <article>
