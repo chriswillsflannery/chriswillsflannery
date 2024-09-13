@@ -38,6 +38,10 @@ const Home: NextPage = () => {
         {locale==='en-US' ? (
           <>
             <p>
+              <a href="https://www.youtube.com/watch?v=5dmiGyppRGw">[EXT] Sep 13 2024: Game-Based Eval of ChatGPT o1-preview | Strawberry | Q*</a>
+            </p>
+
+            <p>
               <Link href="./posts/ragExamplesForJobApplication">
                 {`RAG documents for job application autofill`}
               </Link>
