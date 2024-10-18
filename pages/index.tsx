@@ -38,6 +38,12 @@ const Home: NextPage = () => {
         {locale==='en-US' ? (
           <>
             <p>
+              <Link href="./posts/whyIsJavascriptSingleThreaded">
+                {`Why is JavaScript single threaded? (Go is multi-threaded)`}
+              </Link>
+            </p>
+
+            <p>
               <a href="https://www.youtube.com/watch?v=5dmiGyppRGw">[EXT] Sep 13 2024: Game-Based Eval of ChatGPT o1-preview | Strawberry | Q*</a>
             </p>
 
