@@ -38,6 +38,12 @@ const Home: NextPage = () => {
         {locale==='en-US' ? (
           <>
             <p>
+              <Link href="./posts/deadInternet">
+                {`Dead internet theory is dead!`}
+              </Link>
+            </p>
+
+            <p>
               <Link href="./posts/whyIsJavascriptSingleThreaded">
                 {`Why is JavaScript single threaded? (Go is multi-threaded)`}
               </Link>
