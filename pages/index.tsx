@@ -38,6 +38,10 @@ const Home: NextPage = () => {
         {locale==='en-US' ? (
           <>
             <p>
+              <a href="https://www.youtube.com/watch?v=_y77s1gH0Eg">[EXT] Jan 8 2024: I no longer welcome AI replacing me, I fear it</a>
+            </p>
+
+            <p>
               <Link href="./posts/deadInternet">
                 {`Dead internet theory is dead!`}
               </Link>
