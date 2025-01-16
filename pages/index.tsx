@@ -38,7 +38,11 @@ const Home: NextPage = () => {
         {locale==='en-US' ? (
           <>
             <p>
-              <a href="https://www.youtube.com/watch?v=_y77s1gH0Eg">[EXT] Jan 8 2024: I no longer welcome AI replacing me, I fear it</a>
+              <a href="https://youtu.be/7i37SSc14Dg?si=FMSfpUUihhNpIB5D">[EXT] Jan 15 2025: Everything is an AI Agent... or is it?</a>
+            </p>
+
+            <p>
+              <a href="https://www.youtube.com/watch?v=_y77s1gH0Eg">[EXT] Jan 8 2025: I no longer welcome AI replacing me, I fear it</a>
             </p>
 
             <p>
