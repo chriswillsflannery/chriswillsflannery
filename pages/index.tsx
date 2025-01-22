@@ -38,6 +38,12 @@ const Home: NextPage = () => {
         {locale==='en-US' ? (
           <>
             <p>
+              <Link href="./posts/autosubtitler">
+                {`Auto-subtitler and Universal Speech Model`}
+              </Link>
+            </p>
+            
+            <p>
               <a href="https://youtu.be/7i37SSc14Dg?si=FMSfpUUihhNpIB5D">[EXT] Jan 15 2025: Everything is an AI Agent... or is it?</a>
             </p>
 
