@@ -18,6 +18,18 @@ const AutoSubtitler: NextPage = () => {
       <main className={styles.articleMain}>
         <h1>{`You can just build an auto-subtitler`}</h1>
         <h3>{`And learn about how models handle audio in the process.`}</h3>
+
+        <p>
+          <a style={{ color: 'coral' }} href='https://www.youtube.com/watch?v=vSCDWcVsfjI'>
+            If you prefer watching/listening to reading, click me!
+          </a>
+        </p>
+
+        <p>
+          <a style={{ color: 'darkcyan' }} href='https://github.com/chriswillsflannery/subtitler'>
+            Check out the code here
+          </a>
+        </p>
         <HL />
 
         <article>
