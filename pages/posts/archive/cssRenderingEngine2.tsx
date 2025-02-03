@@ -39,6 +39,7 @@ const CSSRenderingEngine: NextPage = () => {
             src={styleComputation}
             alt="Style Computation"
             priority
+            className={styles.image}
           />
         </div>
 
@@ -47,6 +48,7 @@ const CSSRenderingEngine: NextPage = () => {
           <Image
             src={styleRuleTree}
             alt="Style Rule Tree"
+            className={styles.image}
           />
         </div>
 
@@ -55,6 +57,7 @@ const CSSRenderingEngine: NextPage = () => {
           <Image
             src={applyRulesCascade}
             alt="CSS Cascade Rules"
+            className={styles.image}
           />
         </div>
 
@@ -63,6 +66,7 @@ const CSSRenderingEngine: NextPage = () => {
           <Image
             src={layout}
             alt="Render Tree layout"
+            className={styles.image}
           />
         </div>
 
@@ -71,6 +75,7 @@ const CSSRenderingEngine: NextPage = () => {
           <Image
             src={layoutProcess}
             alt="Layout Process"
+            className={styles.image}
           />
         </div>
 
@@ -79,6 +84,7 @@ const CSSRenderingEngine: NextPage = () => {
           <Image
             src={cssVisualModel}
             alt="CSS Visual Model"
+            className={styles.image}
           />
         </div>
 
@@ -87,6 +93,7 @@ const CSSRenderingEngine: NextPage = () => {
           <Image
             src={cssBlockTypes}
             alt="CSS Block types"
+            className={styles.image}
           />
         </div>
 
@@ -95,6 +102,7 @@ const CSSRenderingEngine: NextPage = () => {
           <Image
             src={cssPositioning}
             alt="CSS Positioning"
+            className={styles.image}
           />
         </div>
       </main>

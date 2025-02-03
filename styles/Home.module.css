@@ -150,3 +150,8 @@
     filter: invert(1);
   }
 }
+
+.image {
+  max-width: 100%;
+  height: auto;
+}

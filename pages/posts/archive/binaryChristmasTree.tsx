@@ -23,6 +23,7 @@ const BinaryChristmasTree: NextPage = () => {
             src={binaryChristmas}
             alt="Binary Christmas Tree"
             priority
+            className={styles.image}
           />
           <p>ho, ho, ho and mistletoe and presents for pret-ty girls</p>
         </div>

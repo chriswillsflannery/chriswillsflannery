@@ -36,6 +36,7 @@ const CSSRenderingEngine: NextPage = () => {
             src={cssParsing}
             alt="CSS Parsing"
             priority
+            className={styles.image}
           />
         </div>
 
@@ -44,6 +45,7 @@ const CSSRenderingEngine: NextPage = () => {
           <Image
             src={cssOM}
             alt="CSSOM"
+            className={styles.image}
           />
         </div>
 
@@ -52,6 +54,7 @@ const CSSRenderingEngine: NextPage = () => {
           <Image
             src={orderOfParsing}
             alt="Order of Parsing"
+            className={styles.image}
           />
         </div>
 
@@ -60,6 +63,7 @@ const CSSRenderingEngine: NextPage = () => {
           <Image
             src={renderTreeConstruction}
             alt="Render Tree Construction"
+            className={styles.image}
           />
         </div>
 
@@ -68,6 +72,7 @@ const CSSRenderingEngine: NextPage = () => {
           <Image
             src={renderAndDomTrees}
             alt="Render and DOM trees"
+            className={styles.image}
           />
         </div>
 

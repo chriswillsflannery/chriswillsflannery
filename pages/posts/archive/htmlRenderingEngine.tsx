@@ -30,6 +30,7 @@ const HtmlRenderingEngine: NextPage = () => {
             src={browserStructure}
             alt="Browser Structure"
             priority
+            className={styles.image}
           />
         </div>
 
@@ -38,6 +39,7 @@ const HtmlRenderingEngine: NextPage = () => {
           <Image
             src={overview}
             alt="Overview"
+            className={styles.image}
           />
         </div>
 
@@ -46,6 +48,7 @@ const HtmlRenderingEngine: NextPage = () => {
           <Image
             src={errorTolerance}
             alt="Error Tolerance"
+            className={styles.image}
           />
         </div>
 
@@ -54,6 +57,7 @@ const HtmlRenderingEngine: NextPage = () => {
           <Image
             src={parsingFlow}
             alt="Parsing Flow"
+            className={styles.image}
           />
         </div>
 
@@ -62,6 +66,7 @@ const HtmlRenderingEngine: NextPage = () => {
           <Image
             src={parser}
             alt="Parser"
+            className={styles.image}
           />
         </div>
 
@@ -70,6 +75,7 @@ const HtmlRenderingEngine: NextPage = () => {
           <Image
             src={parseTree}
             alt="Parse Tree"
+            className={styles.image}
           />
         </div>
 
