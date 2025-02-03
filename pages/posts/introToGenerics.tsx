@@ -165,6 +165,7 @@ const IntroToGenerics: NextPage = () => {
             width={400}
             height={100}
             priority
+            className={styles.image}
           />
           <p>the function signature is simply the function&rsquo;s name (addByTwo) and argument (num).</p>
           <p>Unfortunately, simply looking at the function name and inputs doesn&rsquo;t give us a whole lot of rich information about what the function does.</p>
@@ -181,6 +182,7 @@ const IntroToGenerics: NextPage = () => {
             alt="Function Signature Typescript"
             width={500}
             height={100}
+            className={styles.image}
           />
           <p>Now by simply glancing at this function&rsquo;s signature we get a whole hecka lot more information.</p>
           <p>We can now see that it must take a number as an input and return a number as an output.</p>

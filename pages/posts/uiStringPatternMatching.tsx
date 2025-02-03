@@ -3,11 +3,9 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link';
 import Prism from 'prismjs';
-import Image from 'next/image';
 import "prismjs/components/prism-typescript";
 import "prismjs/components/prism-jsx";
 import "prismjs/components/prism-tsx";
-import CookieClicker from '@/public/cookieClickerReact/cookie.png';
 
 import styles from '@/styles/Home.module.css';
 import { CodeBlock, HL } from '@/components';

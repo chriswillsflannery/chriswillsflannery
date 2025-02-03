@@ -3,7 +3,6 @@ import type { NextPage } from 'next'
 import { useRouter } from 'next/router';
 import Head from 'next/head'
 import Link from 'next/link';
-import Image from 'next/image';
 import Prism from 'prismjs';
 import "prismjs/components/prism-typescript";
 import "prismjs/components/prism-jsx";

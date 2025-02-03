@@ -148,6 +148,7 @@ const CookieClickerReact: NextPage = () => {
             src={CookieClicker}
             alt="CookieClicker"
             priority
+            className={styles.image}
           />
           <CodeBlock code={reactRefsExample} />
           <h4>Why this works:</h4>

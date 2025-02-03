@@ -121,6 +121,7 @@ const TradingSystem: NextPage = () => {
             src={system}
             alt="system"
             priority
+            className={styles.image}
         />
 
         <div style={{ maxWidth: '800px'}}>

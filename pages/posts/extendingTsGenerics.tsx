@@ -160,6 +160,7 @@ const ExtendingTSGenerics: NextPage = () => {
             width={500}
             height={400}
             priority
+            className={styles.image}
           />
           <p>{`and..... no good. can't use reduce on a union type. and medianBPM, minBPM and maxBPM don't exist on BreathHold.`}</p>
         </article>
@@ -171,6 +172,7 @@ const ExtendingTSGenerics: NextPage = () => {
             alt="halfway there"
             width={620}
             height={400}
+            className={styles.image}
           />
           <p>{`Halfway there. Our function now takes in an array of generic T's (so long as T is either of HeartRateDataType or BreathHoldDataType).`}</p>
           <p>This resolves our reduce issue. However, we will still need to employ <i>type narrowing</i> to take care of the variable assignments inside of the function.</p>
@@ -179,6 +181,7 @@ const ExtendingTSGenerics: NextPage = () => {
             alt="type narrowing"
             width={450}
             height={300}
+            className={styles.image}
           />
           <p>Bit contrived example but hopefully this gets the point across.</p>
           <p>The purpose of extending Generic types is to create <i>Generic</i> functions which have variable inputs/outputs as far as the types of things they can take in and spit out.</p>

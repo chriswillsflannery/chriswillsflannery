@@ -74,6 +74,7 @@ const IntroToGenerics: NextPage = () => {
             alt="Prototype Property on object"
             width={600}
             height={300}
+            className={styles.image}
           />
           {myLang.oop2[2]}
           {myLang.oop2[3]}
@@ -82,6 +83,7 @@ const IntroToGenerics: NextPage = () => {
             alt="Prototype of my object"
             width={600}
             height={300}
+            className={styles.image}
           />
           {myLang.oop2[4]}
           <Image
@@ -89,6 +91,7 @@ const IntroToGenerics: NextPage = () => {
             alt="Prototype of my object"
             width={600}
             height={350}
+            className={styles.image}
           />
           {myLang.oop2[5]}
           {myLang.oop2[6]}

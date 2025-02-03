@@ -85,6 +85,7 @@ const WhyIsJavascriptSingleThreaded: NextPage = () => {
                 priority
                 width={1000}
                 height={700}
+                className={styles.image}
             />
             <p>{`Here, we have a long-running process which places synchronous and non-synchronous events onto a call stack, then plucks them off one by one and executes the synchronous operations, and puts the async operations into some task queues or offloads them to some web APIs. Then when the call stack is freed up, it plucks the async events off the task queue and executes them. So let’s run a thought experiment. What if the event loop was multi-threaded?`}</p>
             <p>{`If there were multiple threads working against the same processes in the loop which are shared by reference like the map in the golang example, it would be really complicated to figure out which thread gets access to the call stack at any given time, or the task queue, or which of these needs to be locked, and if they need to get locked, how does that impact the end user’s experience?`}</p>

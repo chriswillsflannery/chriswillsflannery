@@ -70,6 +70,7 @@ const AICodingJobs: NextPage = () => {
             src={AIdoomer}
             alt="AI Doomer"
             priority
+            className={styles.image}
           />
           {myLang.aiTakeCodingJobs[8]}
           {myLang.aiTakeCodingJobs[9]}

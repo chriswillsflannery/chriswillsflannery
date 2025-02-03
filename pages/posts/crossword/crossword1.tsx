@@ -27,6 +27,7 @@ const Crossword1: NextPage = () => {
               src={generic}
               alt="Crossword"
               priority
+              className={styles.image}
             />
             <h2>Click to play!</h2>
           </a>

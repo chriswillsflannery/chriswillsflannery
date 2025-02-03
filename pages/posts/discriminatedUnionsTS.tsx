@@ -37,6 +37,7 @@ const DiscriminatedUnions: NextPage = () => {
             width={550}
             height={220}
             priority
+            className={styles.image}
           />
           <p>We can assume &rsquo;Items&rsquo; might be something like an array of strings.</p>
           <p>We then have a function which uses these types:</p>
@@ -45,6 +46,7 @@ const DiscriminatedUnions: NextPage = () => {
             alt="Function using generics"
             width={550}
             height={220}
+            className={styles.image}
           />
           <p>Here we are using the generic T to describe the relationship between the &rsquo;type&rsquo; and &rsquo;payload&rsquo; in this function&rsquo;s parameters, which are not static types.</p>
           <p>However, the issue is that when we hover on &rsquo;payload&rsquo;, we see this:</p>
@@ -53,6 +55,7 @@ const DiscriminatedUnions: NextPage = () => {
             alt="Hover on payload and see generic"
             width={550}
             height={220}
+            className={styles.image}
           />
           <p>Unfortunately, the type of &rsquo;payload&rsquo; within the switch statement remains as <code>CollectionPayloads[T].</code></p>
           <p>We would hope that TypeScript would know that &rsquo;T&rsquo; is now a specific value, in fact, one of several possibilities within CollectionPayloads.</p>
