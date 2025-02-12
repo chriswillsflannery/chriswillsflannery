@@ -25,12 +25,12 @@ const Home = () => {
           <ListItem
             href="https://youtu.be/7i37SSc14Dg?si=FMSfpUUihhNpIB5D"
           >
-            Everything is an AI Agent... or is it?
+            [EXT]: Everything is an AI Agent... or is it?
           </ListItem>
           <ListItem
             href="https://www.youtube.com/watch?v=_y77s1gH0Eg"
           >
-            I no longer welcome AI replacing me, I fear it
+            [EXT]: I no longer welcome AI replacing me, I fear it
           </ListItem>
           <ListItem
             href="./genericPost/deadInternet"
@@ -45,7 +45,7 @@ const Home = () => {
           <ListItem
             href="https://www.youtube.com/watch?v=5dmiGyppRGw"
           >
-            Game-Based Eval of ChatGPT o1-preview | Strawberry | Q*
+            [EXT]: Game-Based Eval of ChatGPT o1-preview | Strawberry | Q*
           </ListItem>
           {/* <ListItem
             href="./posts/ragExamplesForJobApplication"
@@ -126,12 +126,12 @@ const Home = () => {
           <ListItem
             href="https://www.youtube.com/watch?v=ByuEfCcj1vg"
           >
-            Parse data like a Blade Runner with JavaScript
+            [EXT]: Parse data like a Blade Runner with JavaScript
           </ListItem>
           <ListItem
             href="https://www.youtube.com/watch?v=0V2Mi16xd04"
           >
-            Find the Mode of a dataset (sub. Español)
+            [EXT]: Find the Mode of a dataset (sub. Español)
           </ListItem> 
           <br />
           <li> Under (Re)Construction </li>
