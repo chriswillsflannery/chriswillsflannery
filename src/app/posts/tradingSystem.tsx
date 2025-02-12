@@ -1,3 +1,5 @@
+/*
+import { useEffect } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
@@ -193,3 +195,4 @@ API gateway and Websocket API can use RBAC Role based access control to grant ce
 };
 
 export default TradingSystem;
+*/

@@ -136,15 +136,16 @@ const Home = () => {
         </ul>
       </main>
 
-      <footer className="mt-8 pt-4 border-t border-white">
-        <p>
+      <footer className="mt-8 pt-4 border-t border-white flex justify-between">
+        <div>
           <Link href="./archive" className="underline mr-4">
             Archive
           </Link>
           <Link href="./crossword" className="underline">
             Crossword
           </Link>
-        </p>
+        </div>
+        <p>Ask me how I used Cursor Agent to port my old blog!</p>
       </footer>
     </div>
   );

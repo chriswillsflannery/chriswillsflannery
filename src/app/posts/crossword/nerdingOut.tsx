@@ -1,3 +1,4 @@
+/*
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
@@ -53,3 +54,4 @@ const BilingueTvAndFilm: NextPage = () => {
 };
 
 export default BilingueTvAndFilm;
+*/

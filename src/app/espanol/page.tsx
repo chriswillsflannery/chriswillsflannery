@@ -61,7 +61,7 @@ const HomeEsp = () => {
   );
 };
 
-const ListItem = ({ href, title }) => (
+const ListItem = ({ href, title }: { href: string; title: string }) => (
   <li>
     <Link href={href} className="underline hover:no-underline">
       {title}

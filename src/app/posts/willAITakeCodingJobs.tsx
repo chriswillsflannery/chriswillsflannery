@@ -1,3 +1,4 @@
+/*
 import { useEffect } from "react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
@@ -106,3 +107,4 @@ const AICodingJobs: NextPage = () => {
 };
 
 export default AICodingJobs;
+*/
