@@ -37,7 +37,7 @@ export default function PeruvianPostLayout({
           </Link>
         </div>
         <div className="flex justify-center items-center space-x-4">
-          <div className="mr-4 my-0 pt-1 flex items-center justify-center">Inspirado por los colores del Perú</div>
+          <div className="mx-4 my-0 pt-1 flex items-center justify-center">Inspirado por los colores del Perú</div>
           <Link href="https://www.linkedin.com/in/chriswillsflannery" className="text-amber-200 hover:text-amber-400">
             <Linkedin size={20} />
           </Link>
