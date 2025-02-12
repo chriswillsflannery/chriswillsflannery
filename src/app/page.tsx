@@ -1,3 +1,5 @@
+import { Twitter } from "lucide-react";
+import { Linkedin } from "lucide-react";
 import Link from "next/link";
 
 const Home = () => {
@@ -145,7 +147,15 @@ const Home = () => {
             Crossword
           </Link>
         </div>
-        <p>Ask me how I used Cursor Agent to port my old blog!</p>
+        <div className="flex justify-center items-center space-x-4">
+          <div className="mx-4 my-0 flex items-center justify-center">Ask me how I used Cursor Agent to port my old blog!</div>
+          <Link href="https://www.linkedin.com/in/chriswillsflannery" className="text-amber-200 hover:text-amber-400">
+            <Linkedin size={20} />
+          </Link>
+          <Link href="https://x.com/chriswflannery" className="text-amber-200 hover:text-amber-400">
+            <Twitter size={20} />
+          </Link>
+        </div>
       </footer>
     </div>
   );
