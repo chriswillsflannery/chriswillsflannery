@@ -35,8 +35,8 @@ const Home = () => {
           >
             <span className="text-yellow-200">Dead</span> internet theory is dead!
           </ListItem>
-          {/* <ListItem
-            href="./posts/whyIsJavascriptSingleThreaded"
+          <ListItem
+            href="./genericPost/whyIsJavascriptSingleThreaded"
           >
             Why is JavaScript single threaded? (Go is multi-threaded)
           </ListItem>
@@ -45,7 +45,7 @@ const Home = () => {
           >
             Game-Based Eval of ChatGPT o1-preview | Strawberry | Q*
           </ListItem>
-          <ListItem
+          {/* <ListItem
             href="./posts/ragExamplesForJobApplication"
           >
             RAG documents for job application autofill
@@ -119,7 +119,8 @@ const Home = () => {
             href="./posts/turnNextIntoCra"
           >
             Turning NextJS into CRA
-          </ListItem>
+          </ListItem> */}
+          <br />
           <ListItem
             href="https://www.youtube.com/watch?v=ByuEfCcj1vg"
           >
@@ -129,7 +130,9 @@ const Home = () => {
             href="https://www.youtube.com/watch?v=0V2Mi16xd04"
           >
             Find the Mode of a dataset (sub. Español)
-          </ListItem> */}
+          </ListItem> 
+          <br />
+          <li> Under (Re)Construction </li>
         </ul>
       </main>
 
