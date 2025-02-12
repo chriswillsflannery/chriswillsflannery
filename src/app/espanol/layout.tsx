@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Sun, Mountain } from "lucide-react";
+import { Sun, Mountain, Twitter, Linkedin } from "lucide-react";
 
 export default function PeruvianPostLayout({
   children,
@@ -30,13 +30,21 @@ export default function PeruvianPostLayout({
       <footer className="mt-8 border-t border-amber-200/20 pt-4 text-sm text-amber-200/60 flex justify-between">
         <div>
           <Link href="../archive" className="underline mr-4">
-            Archive
+            Archivo
           </Link>
           <Link href="../crossword" className="underline">
-            Crossword
+            Crucigrama
           </Link>
         </div>
-        <p>Inspired by the colors of Perú</p>
+        <div className="flex justify-center items-center space-x-4">
+          <div className="mr-4 my-0 pt-1 flex items-center justify-center">Inspirado por los colores del Perú</div>
+          <Link href="https://www.linkedin.com/in/chriswillsflannery" className="text-amber-200 hover:text-amber-400">
+            <Linkedin size={20} />
+          </Link>
+          <Link href="https://x.com/chriswflannery" className="text-amber-200 hover:text-amber-400">
+            <Twitter size={20} />
+          </Link>
+        </div>
       </footer>
     </div>
   );
