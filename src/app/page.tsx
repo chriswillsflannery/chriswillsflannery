@@ -20,7 +20,7 @@ const Home = () => {
           >
             Auto-subtitler and Universal Speech <span className="text-yellow-200">Model</span>
           </ListItem>
-          {/* <ListItem
+          <ListItem
             href="https://youtu.be/7i37SSc14Dg?si=FMSfpUUihhNpIB5D"
           >
             Everything is an AI Agent... or is it?
@@ -31,11 +31,11 @@ const Home = () => {
             I no longer welcome AI replacing me, I fear it
           </ListItem>
           <ListItem
-            href="./posts/deadInternet"
+            href="./genericPost/deadInternet"
           >
             <span className="text-yellow-200">Dead</span> internet theory is dead!
           </ListItem>
-          <ListItem
+          {/* <ListItem
             href="./posts/whyIsJavascriptSingleThreaded"
           >
             Why is JavaScript single threaded? (Go is multi-threaded)
