@@ -47,17 +47,17 @@ const Home = () => {
           >
             [EXT]: Game-Based Eval of ChatGPT o1-preview | Strawberry | Q*
           </ListItem>
-          {/* <ListItem
-            href="./posts/ragExamplesForJobApplication"
+          <ListItem
+            href="./genericPost/ragExamplesForJobApplication"
           >
             RAG documents for job application autofill
           </ListItem>
           <ListItem
-            href="./posts/uiStringPatternMatching"
+            href="./genericPost/uiStringPatternMatching"
           >
-            React: UI string pattern matching with Regex
+            React: UI string <span className="text-yellow-200">pattern matching</span> with Regex
           </ListItem>
-          <ListItem
+          {/* <ListItem
             href="./posts/cookieClickerReact"
           >
             Cookie Clicker: <span className="text-yellow-200">React Refs</span>

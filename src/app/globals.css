@@ -35,6 +35,10 @@ p {
   margin-bottom: 0.5rem;
 }
 
+ul {
+  margin-bottom: 1rem;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
