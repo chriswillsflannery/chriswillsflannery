@@ -9,7 +9,7 @@ export default function GenericPostLayout({
     <div className="min-h-screen bg-gradient-to-b from-red-900 to-red-950 text-amber-50 text-white font-mono p-4">
       <header className="mb-8">
         <nav className="flex justify-end space-x-2">
-          <Link href="/espanol">
+          <Link href="/esp">
             A mi jato 🇵🇪
           </Link>
         </nav>

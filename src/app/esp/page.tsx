@@ -7,7 +7,7 @@ const HomeEsp = () => {
 
       <ul className="list-disc pl-5 space-y-2">
         <ListItem
-          href="./genericEspPost/oop3DataManipulation"
+          href="./post-esp/oop3DataManipulation"
           title="Object-Oriented Programación en JS: 3. Manipulación de Datos"
         />
         {/* <ListItem
@@ -49,11 +49,11 @@ const HomeEsp = () => {
           <ListItem
             href="./posts/esp/javaScriptVariables"
             title="22 Oct 2022: JavaScript: Variables y tipos primitivos"
-          />
-          <ListItem
-            href="./posts/esp/javaScriptQueEs"
-            title="20 Oct 2022: JavaScript: ¿Qué es?"
           /> */}
+          <ListItem
+            href="./post-esp/javaScriptQueEs"
+            title="20 Oct 2022: JavaScript: ¿Qué es?"
+          />
           <br />
           <li> Under (Re)Construction </li>
       </ul>

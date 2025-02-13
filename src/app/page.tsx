@@ -7,7 +7,7 @@ const Home = () => {
     <div className="min-h-screen bg-black text-white font-mono p-4">
       <header className="mb-8">
         <nav className="flex justify-end space-x-2 mb-6">
-          <Link href="/espanol">
+          <Link href="/esp">
             Ponte mosca pe 🇵🇪
           </Link>
         </nav>
@@ -18,7 +18,7 @@ const Home = () => {
 
         <ul className="list-disc pl-5 space-y-2">
           <ListItem
-            href="./genericPost/subtitler"
+            href="./post/subtitler"
           >
             Auto-subtitler and Universal Speech <span className="text-yellow-200">Model</span>
           </ListItem>
@@ -33,12 +33,12 @@ const Home = () => {
             [EXT]: I no longer welcome AI replacing me, I fear it
           </ListItem>
           <ListItem
-            href="./genericPost/deadInternet"
+            href="./post/deadInternet"
           >
             <span className="text-yellow-200">Dead</span> internet theory is dead!
           </ListItem>
           <ListItem
-            href="./genericPost/whyIsJavascriptSingleThreaded"
+            href="./post/whyIsJavascriptSingleThreaded"
           >
             Why is JavaScript single threaded? (Go is multi-threaded)
           </ListItem>
@@ -48,12 +48,12 @@ const Home = () => {
             [EXT]: Game-Based Eval of ChatGPT o1-preview | Strawberry | Q*
           </ListItem>
           <ListItem
-            href="./genericPost/ragExamplesForJobApplication"
+            href="./post/ragExamplesForJobApplication"
           >
             RAG documents for job application autofill
           </ListItem>
           <ListItem
-            href="./genericPost/uiStringPatternMatching"
+            href="./post/uiStringPatternMatching"
           >
             React: UI string <span className="text-yellow-200">pattern matching</span> with Regex
           </ListItem>
