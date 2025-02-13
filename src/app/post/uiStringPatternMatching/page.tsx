@@ -96,7 +96,7 @@ const App = () => {
 export default App;
 `;
 
-export const renderApp = `
+const renderApp = `
 const App = () => {
   return (
     <div className="app">
@@ -212,7 +212,7 @@ export default function WhyIsJavaScriptSingleThreaded() {
   ];
 
   // Tooltip component with inline styles
-  const Tooltip = ({ term, description, children }: any) => {
+  const Tooltip = ({ description, children }: { description: string, children: React.ReactNode }) => {
     const [visible, setVisible] = useState(false);
 
     const tooltipStyle = {
@@ -240,19 +240,19 @@ export default function WhyIsJavaScriptSingleThreaded() {
 
     return (
       <span
-        style={tooltipStyle as any}
+        style={tooltipStyle as React.CSSProperties}
         onMouseEnter={() => setVisible(true)}
         onMouseLeave={() => setVisible(false)}
       >
         {children}
-        <span style={tooltipTextStyle as any}>{description}</span>
+        <span style={tooltipTextStyle as React.CSSProperties}>{description}</span>
       </span>
     );
   };
 
-  const processDescription = (description: any, terms: any) => {
+  const processDescription = (description: string, terms: Record<string, string>) => {
     const termKeys = Object.keys(terms);
-    const parts = [];
+    const parts: (React.ReactElement | string)[] = [];
     let lastIndex = 0;
 
     termKeys.forEach((term) => {
