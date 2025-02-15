@@ -1,4 +1,4 @@
-/*
+"use client";
 import { useEffect } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -9,10 +9,10 @@ import "prismjs/components/prism-jsx";
 import "prismjs/components/prism-tsx";
 
 import styles from "@/styles/Home.module.css";
-import { CodeBlock, HL } from "src/components";
-import useWindowSize from "src/hooks/useWindowSize";
-import { MyBlogExampleWithUseFetch } from "src/hooks/useFetch";
-
+import { CodeBlock } from "@/components/CodeBlock";
+import useWindowSize from "@/hooks/useWindowSize";
+import { MyBlogExampleWithUseFetch } from "@/hooks/useFetch";
+import { HL } from "@/components/HorizontalLine";
 const link = { color: "darkSlateBlue" };
 
 const useFetchEx = `
@@ -259,6 +259,15 @@ const useFetch: NextPage = () => {
         <HL />
 
         <article>
+          <h3 className="text-orange-500">
+            Note: Even though this is still a common interview question in 2025,
+            I have archived this post because you should probably just learn and
+            implement something like{" "}
+            <a style={link} href="https://tanstack.com/">
+              TanStack Query
+            </a>{" "}
+            instead.
+          </h3>
           <h4>useFetch is a common React interview question.</h4>
           <CodeBlock code={useFetchEx} />
           <MyBlogExampleWithUseFetch />
@@ -295,15 +304,8 @@ const useFetch: NextPage = () => {
           <CodeBlock code={d} />
         </article>
       </main>
-
-      <footer className={styles.footer}>
-        <p>
-          <Link href="../">Home</Link>
-        </p>
-      </footer>
     </div>
   );
 };
 
 export default useFetch;
-*/

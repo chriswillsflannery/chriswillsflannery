@@ -57,21 +57,17 @@ const Home = () => {
           >
             React: UI string <span className="text-yellow-200">pattern matching</span> with Regex
           </ListItem>
-          {/* <ListItem
-            href="./posts/cookieClickerReact"
+          <ListItem
+            href="./post/cookieClickerReact"
           >
             Cookie Clicker: <span className="text-yellow-200">React Refs</span>
           </ListItem>
-          <ListItem
+          {/* <ListItem
             href="./posts/goRoutine"
           >
             Go Routines
           </ListItem>
-          <ListItem
-            href="./posts/useFetch"
-          >
-            Custom TS React hook: useFetch
-          </ListItem>
+          
           <ListItem
             href="./posts/willAITakeCodingJobs"
           >
