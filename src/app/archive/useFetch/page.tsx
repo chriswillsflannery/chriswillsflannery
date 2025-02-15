@@ -2,7 +2,6 @@
 import { useEffect } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import Prism from "prismjs";
 import "prismjs/components/prism-typescript";
 import "prismjs/components/prism-jsx";

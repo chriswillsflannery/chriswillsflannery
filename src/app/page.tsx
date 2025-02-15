@@ -119,17 +119,6 @@ const Home = () => {
             Turning NextJS into CRA
           </ListItem> */}
           <br />
-          <ListItem
-            href="https://www.youtube.com/watch?v=ByuEfCcj1vg"
-          >
-            [EXT]: Parse data like a Blade Runner with JavaScript
-          </ListItem>
-          <ListItem
-            href="https://www.youtube.com/watch?v=0V2Mi16xd04"
-          >
-            [EXT]: Find the Mode of a dataset (sub. Español)
-          </ListItem> 
-          <br />
           <li> Under (Re)Construction </li>
         </ul>
       </main>

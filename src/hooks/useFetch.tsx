@@ -25,7 +25,7 @@ function fetchReducer<T>(state: State<T>, action: Action<T>): State<T> {
   }
 }
 
-function useFetch<T>(url: string, options?: RequestInit): State<T> {
+function useFetch<T>(url: string): State<T> {
   const [state, dispatch] = useReducer(fetchReducer<T>, {
     data: undefined,
     error: undefined,
@@ -45,8 +45,8 @@ function useFetch<T>(url: string, options?: RequestInit): State<T> {
       }
       const responseData = await response.json();
       dispatch({ type: "SUCCESS", payload: responseData });
-    } catch (err: any) {
-      if (err.name !== "AbortError") {
+    } catch (err: unknown) {
+      if (err instanceof Error && err.name !== "AbortError") {
         // Check if the error is an AbortError
         dispatch({ type: "FAILURE", payload: err as Error });
       }
