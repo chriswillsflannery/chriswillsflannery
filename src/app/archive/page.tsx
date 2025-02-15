@@ -95,6 +95,22 @@ const Archive = () => {
           </a>
         </p>
 
+        {/* <ListItem
+            href="./posts/oop3DataManipulation"
+          >
+            Object-Oriented Programming in JS: 3. Data Manipulation
+          </ListItem>
+          <ListItem
+            href="./posts/oop2PrototypeChain"
+          >
+            Object-Oriented Programming in JS: 2. Prototypal Inheritance
+          </ListItem>
+          <ListItem
+            href="./posts/oop1DataLookup"
+          >
+            Object-Oriented Programming in JS: 1. Data lookup on objects
+          </ListItem> */}
+
         <p>
           <Link href="https://www.youtube.com/watch?v=ByuEfCcj1vg">
             [YT]: Parse data like a Blade Runner with JavaScript

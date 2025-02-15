@@ -62,38 +62,24 @@ const Home = () => {
           >
             Cookie Clicker: <span className="text-yellow-200">React Refs</span>
           </ListItem>
-          {/* <ListItem
-            href="./posts/goRoutine"
+          <ListItem
+            href="./post/goRoutine"
           >
             Go Routines
           </ListItem>
           
           <ListItem
-            href="./posts/willAITakeCodingJobs"
+            href="./post/willAITakeCodingJobs"
           >
-            Will A.I. Replace Coding Jobs?
+            Will A.I. Replace Coding Jobs? (2024)
           </ListItem>
           <ListItem
-            href="./posts/snowCrash"
+            href="./post/snowCrash"
           >
             Snow Crash: Machine Learning & The Future of Research
           </ListItem>
-          <ListItem
-            href="./posts/oop3DataManipulation"
-          >
-            Object-Oriented Programming in JS: 3. Data Manipulation
-          </ListItem>
-          <ListItem
-            href="./posts/oop2PrototypeChain"
-          >
-            Object-Oriented Programming in JS: 2. Prototypal Inheritance
-          </ListItem>
-          <ListItem
-            href="./posts/oop1DataLookup"
-          >
-            Object-Oriented Programming in JS: 1. Data lookup on objects
-          </ListItem>
-          <ListItem
+          
+          {/* <ListItem
             href="./posts/extendingTsGenerics"
           >
             Constraining TS Generics with "Extends" pattern
