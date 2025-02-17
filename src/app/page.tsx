@@ -23,10 +23,10 @@ const Home = () => {
             <span className="text-yellow-200">Model</span>
           </ListItem>
           <ListItem href="https://youtu.be/7i37SSc14Dg?si=FMSfpUUihhNpIB5D">
-            [EXT]: Everything is an AI Agent... or is it?
+            [YT]: Everything is an AI Agent... or is it?
           </ListItem>
           <ListItem href="https://www.youtube.com/watch?v=_y77s1gH0Eg">
-            [EXT]: I no longer welcome AI replacing me, I fear it
+            [YT]: I no longer welcome AI replacing me, I fear it
           </ListItem>
           <ListItem href="./post/deadInternet">
             <span className="text-yellow-200">Dead</span> internet theory is
@@ -36,7 +36,7 @@ const Home = () => {
             Why is JavaScript single threaded? (Go is multi-threaded)
           </ListItem>
           <ListItem href="https://www.youtube.com/watch?v=5dmiGyppRGw">
-            [EXT]: Game-Based Eval of ChatGPT o1-preview | Strawberry | Q*
+            [YT]: Game-Based Eval of ChatGPT o1-preview | Strawberry | Q*
           </ListItem>
           <ListItem href="./post/ragExamplesForJobApplication">
             RAG documents for job application autofill
