@@ -7,9 +7,7 @@ const Home = () => {
     <div className="min-h-screen bg-black text-white font-mono p-4">
       <header className="mb-8">
         <nav className="flex justify-end space-x-2 mb-6">
-          <Link href="/esp">
-            Ponte mosca pe 🇵🇪
-          </Link>
+          <Link href="/esp">Ponte mosca pe 🇵🇪</Link>
         </nav>
         <div className="h-2 bg-gray-800 rounded-full" />
       </header>
@@ -17,68 +15,48 @@ const Home = () => {
         <h1 className="text-2xl font-bold mb-4">{`Hello There.`}</h1>
 
         <ul className="list-disc pl-5 space-y-2">
-          <ListItem
-            href="./post/subtitler"
-          >
-            Auto-subtitler and Universal Speech <span className="text-yellow-200">Model</span>
+          <ListItem href="./post/problemRLHF">
+            One BIG problem with RLHF/Human Labeling
           </ListItem>
-          <ListItem
-            href="https://youtu.be/7i37SSc14Dg?si=FMSfpUUihhNpIB5D"
-          >
+          <ListItem href="./post/subtitler">
+            Auto-subtitler and Universal Speech{" "}
+            <span className="text-yellow-200">Model</span>
+          </ListItem>
+          <ListItem href="https://youtu.be/7i37SSc14Dg?si=FMSfpUUihhNpIB5D">
             [EXT]: Everything is an AI Agent... or is it?
           </ListItem>
-          <ListItem
-            href="https://www.youtube.com/watch?v=_y77s1gH0Eg"
-          >
+          <ListItem href="https://www.youtube.com/watch?v=_y77s1gH0Eg">
             [EXT]: I no longer welcome AI replacing me, I fear it
           </ListItem>
-          <ListItem
-            href="./post/deadInternet"
-          >
-            <span className="text-yellow-200">Dead</span> internet theory is dead!
+          <ListItem href="./post/deadInternet">
+            <span className="text-yellow-200">Dead</span> internet theory is
+            dead!
           </ListItem>
-          <ListItem
-            href="./post/whyIsJavascriptSingleThreaded"
-          >
+          <ListItem href="./post/whyIsJavascriptSingleThreaded">
             Why is JavaScript single threaded? (Go is multi-threaded)
           </ListItem>
-          <ListItem
-            href="https://www.youtube.com/watch?v=5dmiGyppRGw"
-          >
+          <ListItem href="https://www.youtube.com/watch?v=5dmiGyppRGw">
             [EXT]: Game-Based Eval of ChatGPT o1-preview | Strawberry | Q*
           </ListItem>
-          <ListItem
-            href="./post/ragExamplesForJobApplication"
-          >
+          <ListItem href="./post/ragExamplesForJobApplication">
             RAG documents for job application autofill
           </ListItem>
-          <ListItem
-            href="./post/uiStringPatternMatching"
-          >
-            React: UI string <span className="text-yellow-200">pattern matching</span> with Regex
+          <ListItem href="./post/uiStringPatternMatching">
+            React: UI string{" "}
+            <span className="text-yellow-200">pattern matching</span> with Regex
           </ListItem>
-          <ListItem
-            href="./post/cookieClickerReact"
-          >
+          <ListItem href="./post/cookieClickerReact">
             Cookie Clicker: <span className="text-yellow-200">React Refs</span>
           </ListItem>
-          <ListItem
-            href="./post/goRoutine"
-          >
-            Go Routines
-          </ListItem>
-          
-          <ListItem
-            href="./post/willAITakeCodingJobs"
-          >
+          <ListItem href="./post/goRoutine">Go Routines</ListItem>
+
+          <ListItem href="./post/willAITakeCodingJobs">
             Will A.I. Replace Coding Jobs? (2024)
           </ListItem>
-          <ListItem
-            href="./post/snowCrash"
-          >
+          <ListItem href="./post/snowCrash">
             Snow Crash: Machine Learning & The Future of Research
           </ListItem>
-          
+
           {/* <ListItem
             href="./posts/extendingTsGenerics"
           >
@@ -119,11 +97,19 @@ const Home = () => {
           </Link>
         </div>
         <div className="flex justify-center items-center space-x-4">
-          <div className="mx-4 my-0 flex items-center justify-center">Ask me how I used Cursor Agent to port my old blog!</div>
-          <Link href="https://www.linkedin.com/in/chriswillsflannery" className="text-amber-200 hover:text-amber-400">
+          <div className="mx-4 my-0 flex items-center justify-center">
+            Ask me how I used Cursor Agent to port my old blog!
+          </div>
+          <Link
+            href="https://www.linkedin.com/in/chriswillsflannery"
+            className="text-amber-200 hover:text-amber-400"
+          >
             <Linkedin size={20} />
           </Link>
-          <Link href="https://x.com/chriswflannery" className="text-amber-200 hover:text-amber-400">
+          <Link
+            href="https://x.com/chriswflannery"
+            className="text-amber-200 hover:text-amber-400"
+          >
             <Twitter size={20} />
           </Link>
         </div>
@@ -132,7 +118,13 @@ const Home = () => {
   );
 };
 
-const ListItem = ({ href, children }: { href: string; children: React.ReactNode }) => {
+const ListItem = ({
+  href,
+  children,
+}: {
+  href: string;
+  children: React.ReactNode;
+}) => {
   return (
     <li>
       <Link href={href} className="underline hover:no-underline">
