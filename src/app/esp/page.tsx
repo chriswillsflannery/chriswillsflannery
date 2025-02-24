@@ -7,6 +7,10 @@ const HomeEsp = () => {
 
       <ul className="list-disc pl-5 space-y-2">
         <ListItem
+          href="./post-esp/whenWeWentToTheMarket"
+          title="When we went to the market"
+        />
+        <ListItem
           href="./post-esp/oop3DataManipulation"
           title="Object-Oriented Programación en JS: 3. Manipulación de Datos"
         />
