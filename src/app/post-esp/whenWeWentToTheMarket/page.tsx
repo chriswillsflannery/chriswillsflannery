@@ -23,7 +23,7 @@ const Market = () => {
 							past all types of people and all types of food
 						</p>
 						<p>
-							I don't think you stopped smiling the whole day
+							{`I don't think you stopped smiling the whole day`}
 						</p>
 						<p>
 							Sometimes I think about how good that first bite tastes
@@ -61,7 +61,7 @@ const Market = () => {
 							Do you think someone will sell us a visa?
 						</p>
 						<p>
-							Maybe then we won't have to wait so long to be together
+							{`Maybe then we won't have to wait so long to be together`}
 						</p>
 						<br/>
 						<p>
