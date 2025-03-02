@@ -123,6 +123,12 @@ const Archive = () => {
           </Link>
         </p>
 
+        <p>
+          <Link href="./archive/destructuredVariableFromArray">
+            Destructured variable from array (JS)
+          </Link>
+        </p>
+
         {/* <p>
           <Link href="./archive/binaryChristmasTree">
             Binary Christmas Tree

@@ -57,12 +57,12 @@ const Home = () => {
             Snow Crash: Machine Learning & The Future of Research
           </ListItem>
 
-          {/* <ListItem
-            href="./posts/extendingTsGenerics"
-          >
-            Constraining TS Generics with "Extends" pattern
-          </ListItem>
           <ListItem
+            href="./post/extendingTsGenerics"
+          >
+            Constraining TS <span className="text-yellow-200">Generics</span> with "Extends" pattern
+          </ListItem>
+          {/*<ListItem
             href="./posts/introToGenerics"
           >
             Intro to <span className="text-yellow-200">Generics</span> with Type-Level-Typescript
@@ -72,11 +72,7 @@ const Home = () => {
           >
             Discriminated Unions in TypeScript
           </ListItem>
-          <ListItem
-            href="./posts/destructuredVariableFromArray"
-          >
-            Destructured variable from array (JS)
-          </ListItem>
+  
           <ListItem
             href="./posts/turnNextIntoCra"
           >
