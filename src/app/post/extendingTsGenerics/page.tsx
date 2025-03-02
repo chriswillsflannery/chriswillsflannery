@@ -109,7 +109,7 @@ export default function ExtendingTsGenerics() {
         <HL />
 
         <article>
-          <h4>Imagine you have a network request with some incoming json:</h4>
+          <h4>Imagine you have a network request with incoming json:</h4>
           <CodeBlock code={heartRateDataType} />
           <p>
             This incoming JSON will be used to populate some charting software.
