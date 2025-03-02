@@ -112,6 +112,12 @@ const Archive = () => {
           </ListItem> */}
 
         <p>
+          <Link href="./archive/introToGenerics">
+            Intro to Generics with Type-Level-Typescript
+          </Link>
+        </p>
+
+        <p>
           <Link href="https://www.youtube.com/watch?v=ByuEfCcj1vg">
             [YT]: Parse data like a Blade Runner with JavaScript
           </Link>

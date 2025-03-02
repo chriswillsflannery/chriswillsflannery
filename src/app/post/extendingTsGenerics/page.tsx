@@ -1,3 +1,4 @@
+"use client";
 import { CodeBlock } from "@/components/CodeBlock";
 import { HL } from "@/components/HorizontalLine";
 import Image from "next/image";
