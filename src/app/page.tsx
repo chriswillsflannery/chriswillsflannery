@@ -60,7 +60,7 @@ const Home = () => {
           <ListItem
             href="./post/extendingTsGenerics"
           >
-            Constraining TS <span className="text-yellow-200">Generics</span> with "Extends" pattern
+            Constraining TS <span className="text-yellow-200">Generics</span> with Extends pattern
           </ListItem>
           {/*<ListItem
             href="./posts/introToGenerics"

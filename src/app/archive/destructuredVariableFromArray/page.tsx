@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from "react";
 import type { NextPage } from "next";
-import Head from "next/head";
 import Prism from "prismjs";
 import "prismjs/components/prism-typescript";
 import "prismjs/components/prism-jsx";
