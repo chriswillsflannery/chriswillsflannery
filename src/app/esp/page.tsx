@@ -7,6 +7,10 @@ const HomeEsp = () => {
 
       <ul className="list-disc pl-5 space-y-2">
         <ListItem
+          href="./post-esp/worldlyRiches"
+          title="Worldly Riches"
+        />
+        <ListItem
           href="./post-esp/whenWeWentToTheMarket"
           title="When we went to the market"
         />
