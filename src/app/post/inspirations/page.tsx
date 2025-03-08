@@ -1,4 +1,6 @@
 import { HL } from "@/components/HorizontalLine";
+import Image from "next/image";
+import powerpete from "@/public/powerPete/pp.png";
 
 export default function Inspirations() {
   return (
@@ -13,6 +15,12 @@ export default function Inspirations() {
           I would shoot. There was something wrong with either the monitor or the
           game software itself, because the lava appeared black instead of red.`}
         </p>
+        <Image
+          src={powerpete}
+          alt="Power Pete"
+          priority
+        />
+        <br />
         <p>
           - When <span className="text-yellow-200">Cute is What We Aim For </span>
           (allegedly) blew up and got signed to a big label because they ran a macro
