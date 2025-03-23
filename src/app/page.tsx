@@ -15,6 +15,9 @@ const Home = () => {
         <h1 className="text-2xl font-bold mb-4">{`Hello There.`}</h1>
 
         <ul className="list-disc pl-5 space-y-2">
+          <ListItem href="./post/thereIsNoMoat">
+            Sun Mar 22, 2025: There Is No <span className="text-yellow-200">Moat!</span>
+          </ListItem>
           <ListItem href="./post/inspirations">
             I owe my love of programming to these things
           </ListItem>
