@@ -97,6 +97,9 @@ const Home = () => {
           <Link href="./crossword" className="underline">
             Crossword
           </Link>
+          <Link href="./minute-cryptic" className="underline ml-4">
+            Minute Cryptic
+          </Link>
         </div>
         <div className="flex justify-center items-center space-x-4">
           <div className="mx-4 my-0 flex items-center justify-center">
