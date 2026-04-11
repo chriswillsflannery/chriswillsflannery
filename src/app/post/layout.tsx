@@ -6,7 +6,7 @@ export default function GenericPostLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen bg-black text-white font-mono p-4">
+    <div className="min-h-screen bg-black text-white font-sans p-4">
       <header className="mb-8">
         <nav className="flex justify-end space-x-2">
           <Link href="/">
