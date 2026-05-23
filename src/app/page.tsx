@@ -15,6 +15,9 @@ const Home = () => {
         <h1 className="text-2xl font-bold mb-4">{`Hello There.`}</h1>
 
         <ul className="list-disc pl-5 space-y-2">
+          <ListItem href="./post/peptidesSupplyChains">
+            <span className="text-yellow-200">Peptides</span>, supply chains &amp; Altered Carbon
+          </ListItem>
           <ListItem href="./post/generativeUI">
             Why <span className="text-yellow-200">Generative UI</span> Isn&apos;t Ubiquitous
           </ListItem>
