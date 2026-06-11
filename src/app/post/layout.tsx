@@ -14,7 +14,7 @@ export default function GenericPostLayout({
           </Link>
         </nav>
       </header>
-      <main className="space-y-4 max-w-3xl mx-auto">{children}</main>
+      <main className="space-y-4 max-w-2xl mx-auto">{children}</main>
     </div>
   );
 }

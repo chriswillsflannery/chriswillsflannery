@@ -7,7 +7,7 @@ export default function ThereIsNoMoat() {
         <h1>There Is No Moat!</h1>
         <h2>The old moat is dead, long live the moat</h2>
         <HL />
-        <article style={{ maxWidth: "600px", lineHeight: "24px" }}>
+        <article>
           <p>
             Up until earlier this year (2025), a startup could have a fighting chance
             solely based upon great engineering. That is now no longer the case. With tools

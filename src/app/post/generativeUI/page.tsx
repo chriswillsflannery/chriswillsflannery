@@ -7,7 +7,7 @@ export default function GenerativeUI() {
       <main>
         <h1>Why Generative UI Isn&apos;t Ubiquitous</h1>
         <HL />
-        <article style={{ maxWidth: "600px", lineHeight: "24px" }}>
+        <article>
           <p>
             Generative UI can have many forms and many interpretations, but most products on the
             market haven&apos;t really integrated it in its truest form.

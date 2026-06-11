@@ -7,7 +7,7 @@ export default function PeptidesSupplyChains() {
       <main>
         <h1>Peptides, supply chains &amp; Altered Carbon</h1>
         <HL />
-        <article style={{ maxWidth: "600px", lineHeight: "24px" }}>
+        <article>
           <p>
             Why is a tiny class of biological molecules now sitting smack dab in the middle of a
             conversation that intersects AI, trade policy, fitness, and even religious and

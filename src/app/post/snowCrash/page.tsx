@@ -73,7 +73,7 @@ export default function SnowCrash() {
       <main>
         <h1>Snow Crash: Machine Learning & The Future of Research</h1>
         <HL />
-        <article style={{ maxWidth: "600px", lineHeight: "24px" }}>
+        <article>
           <h4>What determines &apos;original&apos; content anyway? </h4>
           <p>
             In the novel Snow Crash by Neal Stephenson we meet our protagonist,

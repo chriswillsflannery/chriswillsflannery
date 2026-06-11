@@ -117,26 +117,128 @@
   "hotPaths": [
     {
       "path": "src/app/page.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1781142513330,
+      "accessCount": 9,
+      "lastAccessed": 1781143714689,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/goRoutine/page.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1781143433493,
       "type": "file"
     },
     {
       "path": "src/app/post/generativeUI/page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1779543015449,
+      "accessCount": 4,
+      "lastAccessed": 1781143412104,
       "type": "file"
     },
     {
       "path": "src/app/post/peptidesSupplyChains/page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1779543083107,
+      "accessCount": 4,
+      "lastAccessed": 1781143413483,
       "type": "file"
     },
     {
       "path": "src/app/post/thoughtLeadershipVsAccomplishment/page.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1781143417372,
+      "type": "file"
+    },
+    {
+      "path": "src/app/globals.css",
+      "accessCount": 3,
+      "lastAccessed": 1781143384374,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/layout.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1781143388670,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/snowCrash/page.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1781143414958,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/thereIsNoMoat/page.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1781143415866,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/willAITakeCodingJobs/page.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1781143418769,
+      "type": "file"
+    },
+    {
+      "path": "tailwind.config.ts",
       "accessCount": 1,
-      "lastAccessed": 1781142508852,
+      "lastAccessed": 1781142881409,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/cookieClickerReact/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1781142881843,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/deadInternet/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1781142882415,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/extendingTsGenerics/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1781142882528,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/inspirations/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1781142883273,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/problemRLHF/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1781142885834,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/ragExamplesForJobApplication/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1781142886514,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/subtitler/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1781142886853,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/uiStringPatternMatching/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1781142887913,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/whyIsJavascriptSingleThreaded/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1781142888124,
+      "type": "file"
+    },
+    {
+      "path": "src/app/crossword/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1781143750131,
       "type": "file"
     }
   ],

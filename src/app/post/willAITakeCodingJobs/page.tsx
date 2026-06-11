@@ -34,7 +34,7 @@ export default function WillAITakeCodingJobs() {
           or that are no longer relevant.
           </p>
         <HL />
-        <article style={{ maxWidth: "600px", lineHeight: "24px" }}>
+        <article>
           <h4>
             Short answer, <i>yeah, probably.</i> How soon? Well, that largely
             remains to be seen.

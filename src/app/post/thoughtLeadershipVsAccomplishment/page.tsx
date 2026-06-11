@@ -6,7 +6,7 @@ export default function ThoughtLeadershipVsAccomplishment() {
       <main>
         <h1>Thought leadership and accomplishment are not the same thing</h1>
         <HL />
-        <article style={{ maxWidth: "600px", lineHeight: "24px" }}>
+        <article>
           <p>
             Social media would have you believe that the most successful people are the ones who
             constantly have north star ideas and can communicate them really well, because

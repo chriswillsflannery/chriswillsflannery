@@ -16,66 +16,86 @@ const Home = () => {
 
         <ul className="list-disc pl-5 space-y-2">
           <ListItem href="./post/thoughtLeadershipVsAccomplishment">
+            <span className="text-gray-500">Jun 10, 2026:</span>{" "}
             <span className="text-yellow-200">Thought leadership</span> and accomplishment are not
             the same thing
           </ListItem>
           <ListItem href="./post/peptidesSupplyChains">
+            <span className="text-gray-500">May 23, 2026:</span>{" "}
             <span className="text-yellow-200">Peptides</span>, supply chains &amp; Altered Carbon
           </ListItem>
           <ListItem href="./post/generativeUI">
+            <span className="text-gray-500">Apr 11, 2026:</span>{" "}
             Why <span className="text-yellow-200">Generative UI</span> Isn&apos;t Ubiquitous
           </ListItem>
           <ListItem href="./post/thereIsNoMoat">
-            Sun Mar 22, 2025: There Is No <span className="text-yellow-200">Moat!</span>
+            <span className="text-gray-500">Mar 22, 2025:</span>{" "}
+            There Is No <span className="text-yellow-200">Moat!</span>
           </ListItem>
           <ListItem href="./post/inspirations">
+            <span className="text-gray-500">Mar 8, 2025:</span>{" "}
             I owe my love of programming to these things
           </ListItem>
           <ListItem href="./post/problemRLHF">
+            <span className="text-gray-500">Feb 17, 2025:</span>{" "}
             One BIG problem with RLHF/Human Labeling
           </ListItem>
           <ListItem href="./post/subtitler">
+            <span className="text-gray-500">Feb 11, 2025:</span>{" "}
             Auto-subtitler and Universal Speech{" "}
             <span className="text-yellow-200">Model</span>
           </ListItem>
           <ListItem href="https://youtu.be/7i37SSc14Dg?si=FMSfpUUihhNpIB5D">
+            <span className="text-gray-500">Feb 17, 2025:</span>{" "}
             [YT]: Everything is an AI Agent... or is it?
           </ListItem>
           <ListItem href="https://www.youtube.com/watch?v=_y77s1gH0Eg">
+            <span className="text-gray-500">Feb 17, 2025:</span>{" "}
             [YT]: I no longer welcome AI replacing me, I fear it
           </ListItem>
           <ListItem href="./post/deadInternet">
+            <span className="text-gray-500">Feb 12, 2025:</span>{" "}
             <span className="text-yellow-200">Dead</span> internet theory is
             dead!
           </ListItem>
           <ListItem href="./post/whyIsJavascriptSingleThreaded">
+            <span className="text-gray-500">Feb 12, 2025:</span>{" "}
             Why is JavaScript single threaded? (Go is multi-threaded)
           </ListItem>
           <ListItem href="https://www.youtube.com/watch?v=5dmiGyppRGw">
+            <span className="text-gray-500">Feb 17, 2025:</span>{" "}
             [YT]: Game-Based Eval of ChatGPT o1-preview | Strawberry | Q*
           </ListItem>
           <ListItem href="./post/ragExamplesForJobApplication">
+            <span className="text-gray-500">Feb 11, 2025:</span>{" "}
             RAG documents for job application autofill
           </ListItem>
           <ListItem href="./post/uiStringPatternMatching">
+            <span className="text-gray-500">Jun 14, 2024:</span>{" "}
             React: UI string{" "}
             <span className="text-yellow-200">pattern matching</span> with Regex
           </ListItem>
           <ListItem href="./post/cookieClickerReact">
+            <span className="text-gray-500">Feb 15, 2025:</span>{" "}
             Cookie Clicker: <span className="text-yellow-200">React Refs</span>
           </ListItem>
-          <ListItem href="./post/goRoutine">Go Routines</ListItem>
+          <ListItem href="./post/goRoutine">
+            <span className="text-gray-500">Feb 15, 2025:</span> Go Routines
+          </ListItem>
 
           <ListItem href="./post/willAITakeCodingJobs">
+            <span className="text-gray-500">Feb 15, 2025:</span>{" "}
             Will A.I. Replace Coding Jobs? (2024)
           </ListItem>
           <ListItem href="./post/snowCrash">
+            <span className="text-gray-500">Feb 15, 2025:</span>{" "}
             Snow Crash: Machine Learning & The Future of Research
           </ListItem>
 
           <ListItem
             href="./post/extendingTsGenerics"
           >
+            <span className="text-gray-500">Mar 1, 2025:</span>{" "}
             Constraining TS <span className="text-yellow-200">Generics</span> with Extends pattern
           </ListItem>
           {/*<ListItem
@@ -112,9 +132,6 @@ const Home = () => {
           </Link>
         </div>
         <div className="flex justify-center items-center space-x-4">
-          <div className="mx-4 my-0 flex items-center justify-center">
-            Ask me how I used Cursor Agent to port my old blog!
-          </div>
           <Link
             href="https://www.linkedin.com/in/chriswillsflannery"
             className="text-amber-200 hover:text-amber-400"
@@ -142,7 +159,7 @@ const ListItem = ({
 }) => {
   return (
     <li>
-      <Link href={href} className="underline hover:no-underline">
+      <Link href={href} className="no-underline hover:underline">
         {children}
       </Link>
     </li>
