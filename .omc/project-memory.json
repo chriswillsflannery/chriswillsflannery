@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1779542899251,
+  "lastScanned": 1781142383738,
   "projectRoot": "/Users/chrisflannery/Desktop/chriswillsflannery",
   "techStack": {
     "languages": [
@@ -77,7 +77,7 @@
       "path": "public",
       "purpose": "Public files",
       "fileCount": 3,
-      "lastAccessed": 1779542899229,
+      "lastAccessed": 1781142383721,
       "keyFiles": [
         "binaryChristmas.jpeg",
         "favicon.ico",
@@ -88,14 +88,14 @@
       "path": "src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1779542899230,
+      "lastAccessed": 1781142383724,
       "keyFiles": []
     },
     "src/app": {
       "path": "src/app",
       "purpose": "Application code",
       "fileCount": 3,
-      "lastAccessed": 1779542899238,
+      "lastAccessed": 1781142383725,
       "keyFiles": [
         "globals.css",
         "layout.tsx",
@@ -106,7 +106,7 @@
       "path": "src/components",
       "purpose": "UI components",
       "fileCount": 4,
-      "lastAccessed": 1779542899239,
+      "lastAccessed": 1781142383725,
       "keyFiles": [
         "CodeBlock.tsx",
         "HorizontalLine.tsx",
@@ -117,8 +117,8 @@
   "hotPaths": [
     {
       "path": "src/app/page.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1779543085915,
+      "accessCount": 3,
+      "lastAccessed": 1781142513330,
       "type": "file"
     },
     {
@@ -131,6 +131,12 @@
       "path": "src/app/post/peptidesSupplyChains/page.tsx",
       "accessCount": 1,
       "lastAccessed": 1779543083107,
+      "type": "file"
+    },
+    {
+      "path": "src/app/post/thoughtLeadershipVsAccomplishment/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1781142508852,
       "type": "file"
     }
   ],
