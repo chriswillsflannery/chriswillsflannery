@@ -15,6 +15,10 @@ const Home = () => {
         <h1 className="text-2xl font-bold mb-4">{`Hello There.`}</h1>
 
         <ul className="list-disc pl-5 space-y-2">
+          <ListItem href="./post/allegiance">
+            <span className="text-gray-500">Jun 20, 2026:</span>{" "}
+            To Whom Does Your <span className="text-yellow-200">Allegiance</span> Lie?
+          </ListItem>
           <ListItem href="./post/thoughtLeadershipVsAccomplishment">
             <span className="text-gray-500">Jun 10, 2026:</span>{" "}
             <span className="text-yellow-200">Thought leadership</span> and accomplishment are not
