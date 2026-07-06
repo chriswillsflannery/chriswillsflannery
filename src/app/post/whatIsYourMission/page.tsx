@@ -29,6 +29,28 @@ export default function WhatIsYourMission() {
           <p>
             So the greater underlying question - what is your mission?
           </p>
+
+          <HL />
+
+          <p style={{ fontStyle: "italic", color: "#aaa" }}>
+            &quot;[My father] enjoyed, without pretention or self-indulgence, the luxuries that his
+            fortune lavished upon him; but when these were not available, he never seemed to miss
+            them.&rdquo;
+          </p>
+          <p>
+            I particularly like this quote because it resonates hard with what many of us in tech and
+            on X are constantly exposed to - a fear of &quot;becoming part of the permanent
+            underclass&rdquo;
+          </p>
+          <p>
+            What can we learn from this? Work hard - and enjoy the fruits of one&apos;s labor. Feel no
+            shame in doing so. But don&apos;t covet what others have - it will never lead to happiness
+          </p>
+          <p>
+            Better to be content with whatever is available to be enjoyed in the moment, continue
+            progressing steadfastly towards the future, and enjoy the varieties and subtleties of all
+            phases of life!
+          </p>
         </article>
       </main>
     </>
