@@ -15,6 +15,10 @@ const Home = () => {
         <h1 className="text-2xl font-bold mb-4">{`Hello There.`}</h1>
 
         <ul className="list-disc pl-5 space-y-2">
+          <ListItem href="./post/techInversion">
+            <span className="text-gray-500">Jul 17, 2026:</span>{" "}
+            Tech <span className="text-yellow-200">inversion</span> and no-grad-left-behind
+          </ListItem>
           <ListItem href="./post/whatIsYourMission">
             <span className="text-gray-500">Jul 6, 2026:</span>{" "}
             What Is Your <span className="text-yellow-200">Mission</span>?
