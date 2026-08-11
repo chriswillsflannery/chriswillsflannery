@@ -111,12 +111,7 @@ export default function ChurchShapedHole() {
           </p>
           <p>Pop quiz: Why do people love going to church?</p>
           <p>
-            a. People love to read their Bible
-            <br />
-            b. literally anything other than that
-          </p>
-          <p>
-            The real answer has almost everything to do with a set of deeply human experiences that
+            The answer has almost everything to do with a set of deeply human experiences that
             reinforce one another.
           </p>
           <p>
