@@ -15,6 +15,10 @@ const Home = () => {
         <h1 className="text-2xl font-bold mb-4">{`Hello There.`}</h1>
 
         <ul className="list-disc pl-5 space-y-2">
+          <ListItem href="./post/churchShapedHole">
+            <span className="text-gray-500">Aug 11, 2026:</span>{" "}
+            A <span className="text-yellow-200">Church</span> Shaped Hole
+          </ListItem>
           <ListItem href="./post/techInversion">
             <span className="text-gray-500">Jul 17, 2026:</span>{" "}
             Tech <span className="text-yellow-200">inversion</span> and no-grad-left-behind
