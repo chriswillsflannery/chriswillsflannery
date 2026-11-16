@@ -96,38 +96,6 @@ const Home = () => {
             <span className="text-gray-500">Feb 17, 2025:</span>{" "}
             [YT]: Game-Based Eval of ChatGPT o1-preview | Strawberry | Q*
           </ListItem>
-          <ListItem href="./post/ragExamplesForJobApplication">
-            <span className="text-gray-500">Feb 11, 2025:</span>{" "}
-            RAG documents for job application autofill
-          </ListItem>
-          <ListItem href="./post/uiStringPatternMatching">
-            <span className="text-gray-500">Jun 14, 2024:</span>{" "}
-            React: UI string{" "}
-            <span className="text-yellow-200">pattern matching</span> with Regex
-          </ListItem>
-          <ListItem href="./post/cookieClickerReact">
-            <span className="text-gray-500">Feb 15, 2025:</span>{" "}
-            Cookie Clicker: <span className="text-yellow-200">React Refs</span>
-          </ListItem>
-          <ListItem href="./post/goRoutine">
-            <span className="text-gray-500">Feb 15, 2025:</span> Go Routines
-          </ListItem>
-
-          <ListItem href="./post/willAITakeCodingJobs">
-            <span className="text-gray-500">Feb 15, 2025:</span>{" "}
-            Will A.I. Replace Coding Jobs? (2024)
-          </ListItem>
-          <ListItem href="./post/snowCrash">
-            <span className="text-gray-500">Feb 15, 2025:</span>{" "}
-            Snow Crash: Machine Learning & The Future of Research
-          </ListItem>
-
-          <ListItem
-            href="./post/extendingTsGenerics"
-          >
-            <span className="text-gray-500">Mar 1, 2025:</span>{" "}
-            Constraining TS <span className="text-yellow-200">Generics</span> with Extends pattern
-          </ListItem>
           {/*<ListItem
             href="./posts/introToGenerics"
           >

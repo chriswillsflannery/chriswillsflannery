@@ -9,8 +9,46 @@ const Archive = () => {
         <HL />
 
         <p>
+          <Link href="/post/extendingTsGenerics">
+            Mar 1 2025: Constraining TS Generics with Extends pattern
+          </Link>
+        </p>
+
+        <p>
+          <Link href="/post/cookieClickerReact">Feb 15 2025: Cookie Clicker: React Refs</Link>
+        </p>
+
+        <p>
+          <Link href="/post/goRoutine">Feb 15 2025: Go Routines</Link>
+        </p>
+
+        <p>
+          <Link href="/post/willAITakeCodingJobs">
+            Feb 15 2025: Will A.I. Replace Coding Jobs? (2024)
+          </Link>
+        </p>
+
+        <p>
+          <Link href="/post/snowCrash">
+            Feb 15 2025: Snow Crash: Machine Learning &amp; The Future of Research
+          </Link>
+        </p>
+
+        <p>
           <Link href="./archive/useFetch">
             Feb 15 2025: Custom TS React hook: useFetch
+          </Link>
+        </p>
+
+        <p>
+          <Link href="/post/ragExamplesForJobApplication">
+            Feb 11 2025: RAG documents for job application autofill
+          </Link>
+        </p>
+
+        <p>
+          <Link href="/post/uiStringPatternMatching">
+            Jun 14 2024: React: UI string pattern matching with Regex
           </Link>
         </p>
 
