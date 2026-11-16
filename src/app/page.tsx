@@ -15,6 +15,10 @@ const Home = () => {
         <h1 className="text-2xl font-bold mb-4">{`Hello There.`}</h1>
 
         <ul className="list-disc pl-5 space-y-2">
+          <ListItem href="./post/instinctIntent">
+            <span className="text-gray-500">Oct 20, 2026:</span>{" "}
+            Why <span className="text-yellow-200">Instinct</span> Is Worth as Much as Snap
+          </ListItem>
           <ListItem href="./post/accessIsExpensive">
             <span className="text-gray-500">Oct 15, 2026:</span>{" "}
             When Creation Gets Cheap, <span className="text-yellow-200">Access</span> Gets
