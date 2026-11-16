@@ -1,5 +1,11 @@
 import { HL } from "@/components/HorizontalLine";
 
+const Ext = ({ href, children }: { href: string; children: React.ReactNode }) => (
+  <a href={href} target="_blank" rel="noopener noreferrer" className="underline">
+    {children}
+  </a>
+);
+
 export default function ForwardDeployed() {
   return (
     <>
@@ -19,8 +25,12 @@ export default function ForwardDeployed() {
         <HL />
         <article>
           <p>
-            Harvey is one of the largest legal AI companies out there. In September it raised $550
-            million at a $15.5 billion valuation.
+            <Ext href="https://www.harvey.ai">Harvey</Ext> is one of the largest legal AI companies
+            out there. In September it{" "}
+            <Ext href="https://www.harvey.ai/blog/harvey-raises-dollar550m-at-a-dollar155b-valuation-to-help-legal-teams-own-their-intelligence">
+              raised $550 million at a $15.5 billion valuation
+            </Ext>
+            .
           </p>
           <p>
             Harvey&apos;s cofounder Gabe Pereyra described in a recent interview what he sees as the
@@ -34,7 +44,11 @@ export default function ForwardDeployed() {
             data, workflows, and internal systems, and they have a ton of all three.
           </p>
           <p>
-            That&apos;s why you now hear the term &quot;forward-deployed engineer&quot; everywhere.
+            That&apos;s why you now hear the term &quot;
+            <Ext href="https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers">
+              forward-deployed engineer
+            </Ext>
+            &quot; everywhere.
           </p>
 
           <h3 className="text-yellow-500 text-lg mt-8 mb-4">
@@ -164,7 +178,8 @@ export default function ForwardDeployed() {
           <p>
             A lot of people expected the opposite. AI was supposed to make generic SaaS infinitely
             scalable and eliminate a bunch of software engineering work. What we&apos;re seeing
-            instead looks like Jevons paradox, where making the use of a resource more efficient
+            instead looks like{" "}
+            <Ext href="https://en.wikipedia.org/wiki/Jevons_paradox">Jevons paradox</Ext>, where making the use of a resource more efficient
             leads to more consumption of that resource, not less.
           </p>
           <p>
@@ -177,14 +192,44 @@ export default function ForwardDeployed() {
             for the company using it.
           </p>
           <p>
-            You can see startups operating this way in one industry after another. Palantir in
-            government. Harvey and GC AI in legal. My company, AgentSmyth, in capital markets. And
-            a ton more in healthcare.
+            You can see startups operating this way in one industry after another.{" "}
+            <Ext href="https://www.palantir.com">Palantir</Ext> in government. Harvey and{" "}
+            <Ext href="https://gc.ai">GC AI</Ext> in legal. My company,{" "}
+            <Ext href="https://www.agentsmyth.com">AgentSmyth</Ext>, in capital markets. And a ton
+            more in healthcare.
           </p>
           <p>
             SaaS was the bet that every customer could run the same software. The forward-deployed
             engineer is the bet that, now that building is cheap, they don&apos;t have to.
           </p>
+
+          <HL />
+          <h3 className="text-yellow-500 text-lg mt-8 mb-4">Sources</h3>
+          <ul className="list-disc pl-5 text-sm">
+            <li>
+              <Ext href="https://www.harvey.ai/blog/harvey-raises-dollar550m-at-a-dollar155b-valuation-to-help-legal-teams-own-their-intelligence">
+                Harvey Raises $550M at a $15.5B Valuation to Help Legal Teams Own Their
+                Intelligence
+              </Ext>{" "}
+              (Harvey, Sep 9, 2026)
+            </li>
+            <li>
+              <Ext href="https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers">
+                What are Forward Deployed Engineers, and why are they so in demand?
+              </Ext>{" "}
+              (The Pragmatic Engineer, Aug 12, 2025)
+            </li>
+            <li>
+              <Ext href="https://www.saastr.com/harvey-puts-a-former-practicing-lawyer-in-every-deployment-about-180-of-them-heres-how-that-model-works/">
+                Harvey puts a former practicing lawyer in every deployment
+              </Ext>{" "}
+              (SaaStr)
+            </li>
+            <li>
+              <Ext href="https://en.wikipedia.org/wiki/Jevons_paradox">Jevons paradox</Ext>{" "}
+              (Wikipedia)
+            </li>
+          </ul>
         </article>
       </main>
     </>

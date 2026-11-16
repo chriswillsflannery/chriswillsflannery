@@ -15,6 +15,11 @@ const Home = () => {
         <h1 className="text-2xl font-bold mb-4">{`Hello There.`}</h1>
 
         <ul className="list-disc pl-5 space-y-2">
+          <ListItem href="./post/accessIsExpensive">
+            <span className="text-gray-500">Oct 15, 2026:</span>{" "}
+            When Creation Gets Cheap, <span className="text-yellow-200">Access</span> Gets
+            Expensive
+          </ListItem>
           <ListItem href="./post/forwardDeployed">
             <span className="text-gray-500">Oct 1, 2026:</span>{" "}
             Why Everyone Is Hiring <span className="text-yellow-200">Forward-Deployed</span>{" "}
