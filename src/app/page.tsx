@@ -15,6 +15,33 @@ const Home = () => {
         <h1 className="text-2xl font-bold mb-4">{`Hello There.`}</h1>
 
         <ul className="list-disc pl-5 space-y-2">
+          <ListItem
+            href="https://lab.agentsmyth.com/notes/engineering-2-where-the-model-stops"
+            subItems={[
+              {
+                href: "https://lab.agentsmyth.com/methodology/generative-ui-v1",
+                children: (
+                  <>
+                    <span className="text-gray-500">Part 2:</span> What the
+                    model may decide
+                  </>
+                ),
+              },
+              {
+                href: "https://lab.agentsmyth.com/methodology/generative-ui-v1-worked-examples",
+                children: (
+                  <>
+                    <span className="text-gray-500">Part 3:</span> What the
+                    screen shows, and who wrote it
+                  </>
+                ),
+              },
+            ]}
+          >
+            <span className="text-gray-500">Nov 23, 2026:</span>{" "}
+            Where the <span className="text-yellow-200">Model</span> Stops{" "}
+            <span className="text-gray-500">(3 parts)</span>
+          </ListItem>
           <ListItem href="./post/instinctIntent">
             <span className="text-gray-500">Oct 20, 2026:</span>{" "}
             Why <span className="text-yellow-200">Instinct</span> Is Worth as Much as Snap
@@ -148,18 +175,29 @@ const Home = () => {
   );
 };
 
-const ListItem = ({
-  href,
-  children,
-}: {
+type ListItemProps = {
   href: string;
   children: React.ReactNode;
-}) => {
+  subItems?: { href: string; children: React.ReactNode }[];
+};
+
+const ListItem = ({ href, children, subItems }: ListItemProps) => {
   return (
     <li>
       <Link href={href} className="no-underline hover:underline">
         {children}
       </Link>
+      {subItems && (
+        <ul className="list-[circle] pl-6 mt-1 space-y-1">
+          {subItems.map((item) => (
+            <li key={item.href}>
+              <Link href={item.href} className="no-underline hover:underline">
+                {item.children}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
     </li>
   );
 };
